@@ -219,14 +219,14 @@ import React from 'react';const Index = () => {
 
 
 
-              <div class="container mx-auto mt-32 mb-32 ">
-                <div class="bg-indigo-800">
-                  <div class="relative">
+              <div className="container mx-auto mt-32 mb-32 ">
+                <div className="bg-indigo-800">
+                  <div className="relative">
                     <Image className='absolute' src="/Minimal pattern - 7 A.png" width={1280} height={550}/>
-                    <div class="absolute 3xl:text-4xl 2xl:text-4xl xl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl text-4xl text-white font-bold 3xl:top-32 2xl:top-32 xl:top-32 lg:top-32 md:top-32 sm:top-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                    <div className="absolute 3xl:text-4xl 2xl:text-4xl xl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl text-4xl text-white font-bold 3xl:top-32 2xl:top-32 xl:top-32 lg:top-32 md:top-32 sm:top-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                       Bigger data = Better Trained Models
                     </div>
-                    <div class="absolute text-md text-white text-center 3xl:top-56 2xl:top-56 xl:top-56 lg:top-56 md:top-48 sm:top-48 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
+                    <div className="absolute text-md text-white text-center 3xl:top-56 2xl:top-56 xl:top-56 lg:top-56 md:top-48 sm:top-48 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
                       We have great competitors that can provide you with data. 
                       Our main focus is not only providing data but also insights 
                       extracted from them. To create better machine learning models, 
@@ -235,43 +235,43 @@ import React from 'react';const Index = () => {
                   </div>
               </div>
 
-              <div class="flex justify-center items-center gap-16 3xl:-mt-40 2xl:-mt-40 xl:-mt-40 lg:-mt-10 md:mt-20 sm:mt-40 3xl:flex-row 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col ">
-                <div class="bg-white drop-shadow-2xl 3xl:h-[265px] 2xl:h-[265px] xl:h-[265px] lg:h-[265px] md:h-[265px] sm:h-[365px] 3xl:w-[515px] 2xl:w-[515px] xl:w-[515px] lg:w-[515px] md:w-[515px] sm:w-[215px] h-[265px]">
-                  <h1 class="text-center mt-12 text-semibold text-xl">
+              <div className="flex justify-center items-center gap-16 3xl:-mt-40 2xl:-mt-40 xl:-mt-40 lg:-mt-10 md:mt-20 sm:mt-40 3xl:flex-row 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col ">
+                <div className="bg-white drop-shadow-2xl 3xl:h-[265px] 2xl:h-[265px] xl:h-[265px] lg:h-[265px] md:h-[265px] sm:h-[365px] 3xl:w-[515px] 2xl:w-[515px] xl:w-[515px] lg:w-[515px] md:w-[515px] sm:w-[215px] h-[265px]">
+                  <h1 className="text-center mt-12 text-semibold text-xl">
                     Keywords
                   </h1>
-                <div class="flex items-center justify-center mt-4">
-                  <h1 class="text-5xl 3xl:text-5xl 2xl:text-4xl xl:text-5xl lg:text-5xl md:text-5xl sm:text-3xl font-bold text-blue-900">
+                <div className="flex items-center justify-center mt-4">
+                  <h1 className="text-5xl 3xl:text-5xl 2xl:text-4xl xl:text-5xl lg:text-5xl md:text-5xl sm:text-3xl font-bold text-blue-900">
                     2.
                   </h1>
-                  <h1 class="3xl:text-4xl 2xl:text-4xl xl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl text-4xl font-bold text-blue-900">
+                  <h1 className="3xl:text-4xl 2xl:text-4xl xl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl text-4xl font-bold text-blue-900">
                     282.150.458
                   </h1>
                 </div>
 
             <div className='flex '>
 
-                <div class="flex 3xl:flex-row 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col  items-center justify-center gap-8 mt-12 mb-12 3xl:ml-16 2xl:ml-16 xl:ml-16 lg:ml-16 md:ml-16 sm:ml-2">
-                  <div class="">
-                    <div class="flex ">
-                      <div class="">
+                <div className="flex 3xl:flex-row 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col  items-center justify-center gap-8 mt-12 mb-12 3xl:ml-16 2xl:ml-16 xl:ml-16 lg:ml-16 md:ml-16 sm:ml-2">
+                  <div className="">
+                    <div className="flex ">
+                      <div className="">
                         <Image className='' src="/Group 7.png" width={40} height={40}/>
                       </div>
-                      <div class="">
-                        <h1 class="text-gray-700 text-xl w-[126px]">
+                      <div className="">
+                        <h1 className="text-gray-700 text-xl w-[126px]">
                           87 Countries
                         </h1>
                       </div>
                     </div>
                   </div>
 
-                  <div class="">
-                    <div class="flex ">
-                      <div class="">
+                  <div className="">
+                    <div className="flex ">
+                      <div className="">
                         <Image className='' src="/Group 7.png" width={40} height={40}/>
                       </div>
-                      <div class="">
-                        <h1 class="text-gray-700 text-xl w-[126px]">
+                      <div className="">
+                        <h1 className="text-gray-700 text-xl w-[126px]">
                           87 Countries
                         </h1>
                       </div>
@@ -282,42 +282,42 @@ import React from 'react';const Index = () => {
             </div>
 
 
-            <div class="bg-white drop-shadow-2xl 3xl:h-[265px] 2xl:h-[265px] xl:h-[265px] lg:h-[265px] md:h-[265px] sm:h-[365px] 3xl:w-[515px] 2xl:w-[515px] xl:w-[515px] lg:w-[515px] md:w-[515px] sm:w-[215px] h-[265px]">
-                  <h1 class="text-center mt-12 text-semibold text-xl">
+            <div className="bg-white drop-shadow-2xl 3xl:h-[265px] 2xl:h-[265px] xl:h-[265px] lg:h-[265px] md:h-[265px] sm:h-[365px] 3xl:w-[515px] 2xl:w-[515px] xl:w-[515px] lg:w-[515px] md:w-[515px] sm:w-[215px] h-[265px]">
+                  <h1 className="text-center mt-12 text-semibold text-xl">
                     Keywords
                   </h1>
-                <div class="flex items-center justify-center mt-4">
-                  <h1 class="text-5xl 3xl:text-5xl 2xl:text-4xl xl:text-5xl lg:text-5xl md:text-5xl sm:text-3xl font-bold text-blue-900">
+                <div className="flex items-center justify-center mt-4">
+                  <h1 className="text-5xl 3xl:text-5xl 2xl:text-4xl xl:text-5xl lg:text-5xl md:text-5xl sm:text-3xl font-bold text-blue-900">
                     2.
                   </h1>
-                  <h1 class="3xl:text-4xl 2xl:text-4xl xl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl text-4xl font-bold text-blue-900">
+                  <h1 className="3xl:text-4xl 2xl:text-4xl xl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl text-4xl font-bold text-blue-900">
                     282.150.458
                   </h1>
                 </div>
 
             <div className='flex '>
 
-                <div class="flex 3xl:flex-row 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col  items-center justify-center gap-8 mt-12 mb-12 3xl:ml-16 2xl:ml-16 xl:ml-16 lg:ml-16 md:ml-16 sm:ml-2">
-                  <div class="">
-                    <div class="flex ">
-                      <div class="">
+                <div className="flex 3xl:flex-row 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col  items-center justify-center gap-8 mt-12 mb-12 3xl:ml-16 2xl:ml-16 xl:ml-16 lg:ml-16 md:ml-16 sm:ml-2">
+                  <div className="">
+                    <div className="flex ">
+                      <div className="">
                         <Image className='' src="/Group 7.png" width={40} height={40}/>
                       </div>
-                      <div class="">
-                        <h1 class="text-gray-700 text-xl w-[126px]">
+                      <div className="">
+                        <h1 className="text-gray-700 text-xl w-[126px]">
                           87 Countries
                         </h1>
                       </div>
                     </div>
                   </div>
 
-                  <div class="">
-                    <div class="flex ">
-                      <div class="">
+                  <div className="">
+                    <div className="flex ">
+                      <div className="">
                         <Image className='' src="/Group 7.png" width={40} height={40}/>
                       </div>
-                      <div class="">
-                        <h1 class="text-gray-700 text-xl w-[126px]">
+                      <div className="">
+                        <h1 className="text-gray-700 text-xl w-[126px]">
                           87 Countries
                         </h1>
                       </div>
@@ -332,40 +332,40 @@ import React from 'react';const Index = () => {
 
 
 
-        <div class="container mx-auto mt-32">
-          <h1 class="text-center text-6xl font-bold text-blue-800" >
+        <div className="container mx-auto mt-32">
+          <h1 className="text-center text-6xl font-bold text-blue-800" >
             New Metrics:
           </h1>
-          <h1 class=" mt-8 text-center text-6xl font-bold text-blue-800" >
+          <h1 className=" mt-8 text-center text-6xl font-bold text-blue-800" >
             Time To Change Paradigms
           </h1>
-          <h1 class="text-center text-gray-700 text-xl mt-6">
+          <h1 className="text-center text-gray-700 text-xl mt-6">
             The industry is backed by hard-coded metrics, not estimations.
           </h1>
-          <h1 class="text-center text-xl text-gray-700 text-blue-800">
+          <h1 className="text-center text-xl text-gray-700 text-blue-800">
             We believe data science to fix this.
           </h1>
-          <h1 class=" mt-8 text-center text-4xl font-bold text-blue-800" >
+          <h1 className=" mt-8 text-center text-4xl font-bold text-blue-800" >
           Our Revolutionary Approach
           </h1>
 
 
 
 
-          <div class="justify-center items-center flex mt-32 relative">
+          <div className="justify-center items-center flex mt-32 relative">
 
 
           <div className="flex flex-col ">
                 <div className='flex 3xl:flex-row 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col gap-16 mb-16'>
 
                   <div className='flex gap-8'>
-                    <div class="top-16 left-0 flex gap-12">
-                      <div class=" bg-white p-2 border">
+                    <div className="top-16 left-0 flex gap-12">
+                      <div className=" bg-white p-2 border">
                         <Image className='' src="/Group 9.png" width={40} height={40}/>
-                        <h1 class="text-4xl mt-5 text-blue-900 font-bold w-[223px]">
+                        <h1 className="text-4xl mt-5 text-blue-900 font-bold w-[223px]">
                           Keyword Specific CTR Calculations
                         </h1>
-                        <h1 class="text-2xl text-gray-800 font-semibold mt-12 w-[544px]">
+                        <h1 className="text-2xl text-gray-800 font-semibold mt-12 w-[544px]">
                           Most of the rank trackers use fixed CTRs for traffic &amp;
                           visibility. It could be misleading in 2021 but in 2022 
                           it is the trend!
@@ -375,10 +375,10 @@ import React from 'react';const Index = () => {
                   </div>
 
                   <div className='flex gap-8'>
-                    <div class="top-16 left-24 flex gap-12">
-                      <div class=" bg-white p-6 border">
+                    <div className="top-16 left-24 flex gap-12">
+                      <div className=" bg-white p-6 border">
                         <Image className='' src="/Group 9.png" width={40} height={40}/>
-                        <h1 class="text-4xl mt-5 text-blue-900 font-bold w-[223px]">
+                        <h1 className="text-4xl mt-5 text-blue-900 font-bold w-[223px]">
                           Keyword Specific CTR Calculations
                         </h1>
                         <h1 class="text-2xl text-gray-800 font-semibold mt-12 w-[544px]">
@@ -396,13 +396,13 @@ import React from 'react';const Index = () => {
                <div className='flex 3xl:flex-row 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col gap-16 mb-16'>
 
                   <div className='flex gap-8'>
-                    <div class="top-16 left-0 flex gap-12">
-                      <div class=" bg-white p-2 border">
+                    <div className="top-16 left-0 flex gap-12">
+                      <div className=" bg-white p-2 border">
                         <Image className='' src="/Group 9.png" width={40} height={40}/>
-                        <h1 class="text-4xl mt-5 text-blue-900 font-bold w-[223px]">
+                        <h1 className="text-4xl mt-5 text-blue-900 font-bold w-[223px]">
                           Keyword Specific CTR Calculations
                         </h1>
-                        <h1 class="text-2xl text-gray-800 font-semibold mt-12 w-[544px]">
+                        <h1 className="text-2xl text-gray-800 font-semibold mt-12 w-[544px]">
                           Most of the rank trackers use fixed CTRs for traffic &amp;
                           visibility. It could be misleading in 2021 but in 2022 
                           it is the trend!
@@ -412,13 +412,13 @@ import React from 'react';const Index = () => {
                   </div>
 
                   <div className='flex gap-8'>
-                    <div class="top-16 left-24 flex gap-12">
-                      <div class=" bg-white p-6 border">
+                    <div className="top-16 left-24 flex gap-12">
+                      <div className=" bg-white p-6 border">
                         <Image className='' src="/Group 9.png" width={40} height={40}/>
-                        <h1 class="text-4xl mt-5 text-blue-900 font-bold w-[223px]">
+                        <h1 className="text-4xl mt-5 text-blue-900 font-bold w-[223px]">
                           Keyword Specific CTR Calculations
                         </h1>
-                        <h1 class="text-2xl text-gray-800 font-semibold mt-12 w-[544px]">
+                        <h1 className="text-2xl text-gray-800 font-semibold mt-12 w-[544px]">
                           Most of the rank trackers use fixed CTRs for traffic &amp;
                           visibility. It could be misleading in 2021 but in 2022 
                           it is the trend!
@@ -436,17 +436,17 @@ import React from 'react';const Index = () => {
 
 
 
-      <div class="my-32 bg-indigo-800 mx-20">
-        <div class="relative bg-[url('/section-6.png')] bg-contain bg-cover mx-20 justify-center text-center flex flex-col bg-no-repeat pt-16 pb-14 mx-auto">
-          <p class="text-white font-[Source+Sans+Pro] font-semibold text-[54px] text-center max-w-[660px] mx-auto pb-6">
+      <div className="my-32 bg-indigo-800 mx-20">
+        <div className="relative bg-[url('/section-6.png')] bg-contain bg-cover mx-20 justify-center text-center flex flex-col bg-no-repeat pt-16 pb-14 mx-auto">
+          <p className="text-white font-[Source+Sans+Pro] font-semibold text-[54px] text-center max-w-[660px] mx-auto pb-6">
             Get Your Custom Analysis in 60 Seconds For Free
           </p>
-          <p class="text-2xl font-[Source+Sans+Pro] text-white max-w-[700px] mx-auto pb-10 ">
+          <p className="text-2xl font-[Source+Sans+Pro] text-white max-w-[700px] mx-auto pb-10 ">
             Don’t spend hours to find eligible keywords to track. 
             Don’t waste yourself in Excel to group those keywords. 
             AI is ready to help you.
           </p>
-          <div class="mx-auto relative pb-10">
+          <div className="mx-auto relative pb-10">
           <div className='bg-white mx-auto flex rounded-full mt-10 xl:w-[544px] lg:w-[544px] md:w-[544px] sm:w-[544px] h-[78px]'>
                   <input
                     placeholder="Your email address"
@@ -459,11 +459,11 @@ import React from 'react';const Index = () => {
                   </button>
               </div>
               </div>
-              <ul class="mx-auto list-disc flex gap-x-6 text-center justify-center mx-auto ">
-                <li class="text-white text-lg">
+              <ul className="mx-auto list-disc flex gap-x-6 text-center justify-center mx-auto ">
+                <li className="text-white text-lg">
                   14 Days Free Trial
                 </li>
-                <li class="text-white text-lg ml-6">
+                <li className="text-white text-lg ml-6">
                   Free Historical Data Migration For All Accounts
                 </li>
               </ul>
@@ -472,67 +472,67 @@ import React from 'react';const Index = () => {
 
 
 
-            <div class="lg:flex container justify-between mx-auto bg-indigo-800">
-              <div class="relative bg-[url('/shapes.png')] max-w-[965px] h-[975px] bg-contain justify-center flex bg-no-repeat pt-[475px] pb-32 mb-40 pl-[305px] pr-20">
-                <div class="">  
-                  <ul class="pb-14 ">
-                    <li class="cursor-pointer">
-                      <a class="text-white font-semi-bold font-[Source+Sans+Pro] cursor-pointer text-2xl">
+            <div className="lg:flex container justify-between mx-auto bg-indigo-800">
+              <div className="relative bg-[url('/shapes.png')] max-w-[965px] h-[975px] bg-contain justify-center flex bg-no-repeat pt-[475px] pb-32 mb-40 pl-[305px] pr-20">
+                <div className="">  
+                  <ul className="pb-14 ">
+                    <li className="cursor-pointer">
+                      <a className="text-white font-semi-bold font-[Source+Sans+Pro] cursor-pointer text-2xl">
                         Company
                       </a>
                     </li>
                     <li>
-                      <a class="cursor-pointer text-white font-normal font-[Source+Sans+Pro] py-5 text-white transition duration-300 ">
+                      <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] py-5 text-white transition duration-300 ">
                         About
                       </a>
                     </li>
                     <li>
-                      <a class="cursor-pointer text-white font-normal font-[Source+Sans+Pro] text-white transition duration-300 ">
+                      <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] text-white transition duration-300 ">
                         Blog
                       </a>
                     </li>
                     <li>
-                      <a class="cursor-pointer text-white font-normal font-[Source+Sans+Pro] text-white transition duration-300 ">
+                      <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] text-white transition duration-300 ">
                         Career
                       </a>
                     </li>
                     <li>
-                      <a class="cursor-pointer text-white font-normal font-[Source+Sans+Pro] text-white transition duration-300  active">
+                      <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] text-white transition duration-300  active">
                         Contact
                       </a>
                     </li>
                   </ul>
-                  <ul class="pb-14">
-                    <li class="cursor-pointer">
-                      <a class="text-white font-semi-bold font-[Source+Sans+Pro] cursor-pointer text-2xl">
+                  <ul className="pb-14">
+                    <li className="cursor-pointer">
+                      <a className="text-white font-semi-bold font-[Source+Sans+Pro] cursor-pointer text-2xl">
                         Help
                       </a>
                     </li>
                     <li>
-                      <a class="cursor-pointer text-white font-normal font-[Source+Sans+Pro] text-white transition duration-300">
+                      <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] text-white transition duration-300">
                         Knowledge Base
                       </a>
                     </li>
                   </ul>
                 </div>
-                <ul class="pb-56 pl-14 pr-72">
-                  <li class="cursor-pointer">
-                    <a class="text-white font-semi-bold font-[Source+Sans+Pro] cursor-pointer text-2xl">
+                <ul className="pb-56 pl-14 pr-72">
+                  <li className="cursor-pointer">
+                    <a className="text-white font-semi-bold font-[Source+Sans+Pro] cursor-pointer text-2xl">
                       Product
                     </a>
                   </li>
                   <li>
-                    <a class="cursor-pointer text-white font-normal font-[Source+Sans+Pro] py-5 text-white transition duration-300 ">
+                    <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] py-5 text-white transition duration-300 ">
                       CLI
                     </a>
                   </li>
                   <li>  
-                    <a class="cursor-pointer text-white font-normal font-[Source+Sans+Pro] py-5 text-white transition duration-300 ">
+                    <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] py-5 text-white transition duration-300 ">
                       Pricing
                     </a>
                   </li>
                   <li>
-                    <a class="cursor-pointer text-white font-normal font-[Source+Sans+Pro] py-5 pr-30 text-white transition duration-300 ">
+                    <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] py-5 pr-30 text-white transition duration-300 ">
                       Features
                     </a>
                   </li>
