@@ -4,10 +4,10 @@ import React from 'react';const Index = () => {
   const [showMenu, setShowMenu] = useState(false);
     return (
       <>
-  <div className='section-1 bg-pink-200'>
-    <image className='absolute' src="/vector 1 (1).png" width={898.04} height={683.2}/>
-    <div className='relative'>
-      <div className="justify-center mx-auto">
+
+  <div className='section-1 '>
+  <div className="relative bg-[url('/hero.png')] bg-contain bg-cover bg-no-repeat">
+      <div className="justify-center mx-auto ">
         <div className="">
           <div className="flex flex-wrap justify-between items-center">
             <div className='xl:pl-20 lg:pl-20 md:pl-20 sm:pl-5 pl-4 pt-4'>
@@ -61,12 +61,7 @@ import React from 'react';const Index = () => {
           </nav>
         </div>
       </div>
-    </div>
-  </div>
-
-
-        <div className='section-2 bg-pink-200'>
-          <div className="lg:flex pt-32 lg:pb-28 md:pb-18 pb-8 items-center container justify-center mx-auto px-10" id="home-section">
+      <div className="lg:flex pt-32 lg:pb-28 md:pb-18 pb-8 items-center container justify-center mx-auto px-10" id="home-section">
             <div className="lg:pb-0 pb-8">
 
               <p className="lg:text-8xl md:text-7xl md:text-5xl text-4xl font-bold z-20 text-white text-center ">
@@ -96,43 +91,39 @@ import React from 'react';const Index = () => {
               </div>
               
               <div className='mx-auto my-10'>
-                <ul class="mx-auto list-disc flex gap-x-6 text-center justify-center mx-auto ">
-                <li class="text-white text-lg">
+                <ul className="mx-auto list-disc flex gap-x-6 text-center justify-center mx-auto ">
+                <li className="text-white text-lg">
                 No credit cards
                 </li>
-                <li class="text-white text-lg ml-6">
+                <li className="text-white text-lg ml-6">
                 Ready to use in five minutes
                 </li>
               </ul>
               </div>
+              <div className='mt-96'></div>
 
-              <button className='absolute mx-auto'>
-                <image src="/circle.png" width={108} height={103}/>
-              </button>
-
+              
+                  
             </div>
           </div>
         </div>
       </div>
+    </div>
+  
 
 
-
-      <div className='container-2xl'>
-        <div>
-        <Image className="mx-auto bg-pink-200" src="/Vector 4 n.png" width={2560.5} height={446}/>
-        </div>
-      
-          <div className='relative'>
-              <h1 className='3xl:text-6xl 2xl:text-6xl xl:text-6xl lg:text-6xl md:text-4xl sm:text-4xl text-blue-800 text-6xl font-bold text-center -mt-40 '>
+        <div className='section-2'>
+        <h1 className='relative 3xl:text-6xl 2xl:text-6xl xl:text-6xl lg:text-6xl md:text-4xl sm:text-4xl text-blue-800 text-6xl font-bold text-center -mt-40 '>
                 Features
               </h1>
-              <p className='3xl:text-2xl 2xl:text-2xl xl:text-2xl lg:text-2xl md:text-md sm:text-md text-md font-normal text-center leading-8'>
+              <p className='relative text-black 3xl:text-2xl 2xl:text-2xl xl:text-2xl lg:text-2xl md:text-md sm:text-md text-md font-normal text-center leading-8'>
                 You found us! Why spend your valuable hours to understand
               </p>
-              <p className='3xl:text-2xl 2xl:text-2xl xl:text-2xl lg:text-2xl md:text-md sm:text-md text-md font-normal text-center'>
+              <p className='relative text-black 3xl:text-2xl 2xl:text-2xl xl:text-2xl lg:text-2xl md:text-md sm:text-md text-md font-normal text-center'>
                 yet another rank tracker?
               </p>
-              <div className='bg-white'>
+
+              <div className=''>
                 <div className='bg-blue-100 mx-auto flex rounded-full mt-10 xl:w-[321px] lg:w-[321px] md:w-[321px] sm:w-[321px] h-[72px] '>
                     <button className="ml-3 text-center font-semibold text-base bg-blue-900 hover:bg-blue-600 focus:bg-blue-600 text-white px-4 py-2 m-4 rounded-full">
                       <h1 className='w-20'>
@@ -144,9 +135,9 @@ import React from 'react';const Index = () => {
                       className="text-lg text-blue-900 py-7 px-4 bg-blue-100 z-30 w-full focus:outline-none rounded-full focus:bg-transparent"
                     />
                 </div>
-            </div>
+              </div>
           </div>
-      </div>
+            
 
 
       <div className='container:2xl py-4 px-10 mt-24 grid grid-cols lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 lg:flex-row xl:flex-row 2xl:flex-row'>
@@ -219,10 +210,10 @@ import React from 'react';const Index = () => {
 
 
 
-              <div className="container mx-auto mt-32 mb-32 ">
+              <div className="container mx-auto mt-96 mb-32 ">
                 <div className="bg-indigo-800">
                   <div className="relative">
-                    <Image className='absolute' src="/Minimal pattern - 7 A.png" width={1280} height={550}/>
+                    
                     <div className="absolute 3xl:text-4xl 2xl:text-4xl xl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl text-4xl text-white font-bold 3xl:top-32 2xl:top-32 xl:top-32 lg:top-32 md:top-32 sm:top-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                       Bigger data = Better Trained Models
                     </div>
