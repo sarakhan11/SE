@@ -209,30 +209,32 @@ import React from 'react';const Index = () => {
       </div>
 
 
-<div className=''>
-            <div class="container relative bg-[url('/section-4.png')] mt-56 bg-cover bg-no-repeat text-center font-[Source+Sans+Pro] justify-center max-w-full w-full h-auto flex flex-col ">
-                <p class="absolute my-8 3xl:text-4xl 2xl:text-4xl xl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl text-4xl text-white font-bold 3xl:top-32 2xl:top-32 xl:top-32 lg:top-32 md:top-32 sm:top-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2font-[Source+Sans+Pro] ">
+<div className='mx-auto 3xl:pr-0 2xl:pr-0 xl:pr-0 lg:pr-0 md:pr-20 sm:pr-20'>
+            <div class="container relative bg-[url('/section-4.png')] mt-56 bg-cover bg-no-repeat text-center font-[Source+Sans+Pro] justify-center max-w-full w-full h-auto flex flex-col 3xl:pl-0 2xl:pl-0 xl:pl-0 lg:pl-16 md:pl-16 sm:pl-24 ">
+                <p class="absolute my-8 3xl:pl-0 2xl:pl-0 xl:pl-0 lg:pl-0 md:pl-20 sm:pl-24 3xl:text-5xl 2xl:text-5xl xl:text-5xl lg:text-5xl md:text-4xl sm:text-2xl text-4xl text-white font-bold 3xl:top-32 2xl:top-32 xl:top-32 lg:top-32 md:top-8 sm:top-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-[Source+Sans+Pro] ">
                     Bigger data = Better Trained Models
                 </p>
-                <p class="absolute font-[Source+Sans+Pro] text-md my-8 pt-24 text-white text-center 3xl:top-56 2xl:top-56 xl:top-56 lg:top-56 md:top-48 sm:top-48 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                <p class="absolute 3xl:pl-0 2xl:pl-0 xl:pl-0 lg:pl-0 md:pl-20 sm:pl-24 font-[Source+Sans+Pro] text-md my-8 pt-24 text-white text-center 3xl:top-56 2xl:top-56 xl:top-56 lg:top-56 md:top-48 sm:top-48 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                     We have great competitors that can provide you with data. 
                     Our main focus is not only providing data but also insights 
                     extracted from them. To create better machine learning models, 
                     we’re collecting more data.
                 </p>
-                  <div className="flex justify-center items-center gap-16 pt-96 3xl:flex-row 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col ">
-                <div className="bg-white drop-shadow-2xl 3xl:h-[265px] 2xl:h-[265px] xl:h-[265px] lg:h-[265px] md:h-[265px] sm:h-[365px] 3xl:w-[515px] 2xl:w-[515px] xl:w-[515px] lg:w-[515px] md:w-[515px] sm:w-[215px] h-[265px]">
-                  <h1 className="text-center mt-12 text-semibold text-xl">
-                    Keywords
-                  </h1>
-                <div className="flex items-center justify-center mt-4">
-                  <h1 className="text-5xl 3xl:text-5xl 2xl:text-4xl xl:text-5xl lg:text-5xl md:text-5xl sm:text-3xl font-bold text-blue-900">
-                    2.
-                  </h1>
-                  <h1 className="3xl:text-4xl 2xl:text-4xl xl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl text-4xl font-bold text-blue-900">
-                    282.150.458
-                  </h1>
-                </div>
+
+
+                <div className="flex justify-center items-center gap-16 pt-96 3xl:flex-row 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col ">
+                  <div className="bg-white drop-shadow-2xl 3xl:h-[265px] 2xl:h-[265px] xl:h-[265px] lg:h-[265px] md:h-[265px] sm:h-[365px] 3xl:w-[515px] 2xl:w-[515px] xl:w-[515px] lg:w-[515px] md:w-[515px] sm:w-[215px] h-[265px]">
+                    <h1 className="text-center mt-12 text-semibold text-xl">
+                      Keywords
+                    </h1>
+                  <div className="flex items-center justify-center mt-4">
+                    <h1 className="text-5xl 3xl:text-5xl 2xl:text-4xl xl:text-5xl lg:text-5xl md:text-5xl sm:text-3xl font-bold text-blue-900">
+                      2.
+                    </h1>
+                    <h1 className="3xl:text-4xl 2xl:text-4xl xl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl text-4xl font-bold text-blue-900">
+                      282.150.458
+                    </h1>
+                  </div>
 
             <div className='flex '>
 
@@ -273,7 +275,7 @@ import React from 'react';const Index = () => {
                   </h1>
                 <div className="flex items-center justify-center mt-4">
                   <h1 className="text-5xl 3xl:text-5xl 2xl:text-4xl xl:text-5xl lg:text-5xl md:text-5xl sm:text-3xl font-bold text-blue-900">
-                    2.
+                    21.
                   </h1>
                   <h1 className="3xl:text-4xl 2xl:text-4xl xl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl text-4xl font-bold text-blue-900">
                     282.150.458
@@ -295,7 +297,19 @@ import React from 'react';const Index = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                
+
+                    <div className="flex ">
+                      <div className="">
+                        <Image className='' src="/Group 7.png" width={40} height={40}/>
+                      </div>
+                      <div className="">
+                        <h1 className="text-gray-700 text-xl w-[126px]">
+                          87 Countries
+                        </h1>
+                      </div>
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
@@ -326,9 +340,9 @@ import React from 'react';const Index = () => {
 
 
 
-          <div className="justify-center items-center flex mt-32 relative">
+          <div className="justify-center items-center flex 3xl:flex-row 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col mt-32 relative">
 
-
+          
           <div className="flex flex-col ">
                 <div className='flex 3xl:flex-row 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col gap-16 mb-16'>
 
@@ -400,23 +414,21 @@ import React from 'react';const Index = () => {
                       </div>
                     </div> 
                   </div>
-
-               </div>
-
-               </div>
-
+                </div>
+              </div>
+            </div>
           </div>
-      </div>
+        
 
 
 
-      <div className="mx-auto">
+      <div className="mx-auto 3xl:pr-0 2xl:pr-0 xl:pr-0 lg:pr-0 md:pr-20 sm:pr-0 ">
         <div className=" mb-24 relative bg-[url('/section-4.png')] w-{1280px} bg-contain bg-cover justify-center text-center flex flex-col bg-no-repeat mt-16 pt-14 pb-14 mx-auto">
-          <div className='container'>
-          <p className="text-white font-[Source+Sans+Pro] font-semibold text-5xl 3xl:text-5xl 2xl:text-5xl xl:text-5xl lg:text-5xl md:text-4xl sm:text-3xl text-center max-w-[660px] mx-auto pb-6">
+          <div className='container mx-auto'>
+          <p className="text-white font-[Source+Sans+Pro] font-semibold text-5xl 3xl:text-5xl 2xl:text-5xl xl:text-5xl lg:text-5xl md:text-4xl sm:text-3xl text-center max-w-[660px] 3xl:w-[660px] 2xl:w-[660px] xl:w-[660px] lg:w-[660px] md:w-[560px] sm:w-[360px] mx-auto pb-6">
             Get Your Custom Analysis in 60 Seconds For Free
           </p>
-          <p className="p-5 text-2xl font-[Source+Sans+Pro] text-white max-w-[700px] mx-auto pb-10 ">
+          <p className="p-5 text-2xl font-[Source+Sans+Pro] text-white max-w-[700px] 3xl:w-[700px] 2xl:w-[700px] xl:w-[700px] lg:w-[700px] md:w-[500px] sm:w-[400px] mx-auto pb-10 ">
             Don’t spend hours to find eligible keywords to track. 
             Don’t waste yourself in Excel to group those keywords. 
             AI is ready to help you.
@@ -449,7 +461,7 @@ import React from 'react';const Index = () => {
 
 
             <div className="lg:flex container justify-between mx-auto bg-indigo-800">
-              <div className="relative bg-[url('/shapes.png')] max-w-[965px] h-[975px] bg-contain justify-center flex bg-no-repeat pt-[475px] pb-32 mb-40 pl-[305px] pr-20">
+              <div className="relative bg-[url('/Vector 47.png')] max-w-[965px] h-[975px] bg-contain justify-center flex bg-no-repeat pt-[475px] pb-32 mb-40 pl-[305px] pr-20">
                 <div className="">  
                   <ul className="pb-14 ">
                     <li className="cursor-pointer">
