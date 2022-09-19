@@ -460,8 +460,10 @@ import React from 'react';const Index = () => {
 
 
 
-            <div className="lg:flex container justify-between mx-auto bg-indigo-800">
-              <div className="relative bg-[url('/Vector 47.png')] max-w-[965px] h-[975px] bg-contain justify-center flex bg-no-repeat pt-[475px] pb-32 mb-40 pl-[305px] pr-20">
+            <div className="container justify-between 3xl:mx-auto 2xl:mx-auto xl:mx-auto lg:mx-auto md:mx-24 sm:mx-36 flex 3xl:flex-row 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col ">
+          <div className=''>
+            <div>
+              <div className="relative bg-[url('/shapes.png')] max-w-[965px] h-[975px] bg-contain justify-center flex bg-no-repeat 3xl:pt-[400px] 2xl:pt-[400px] xl:pt-[400px] lg:pt-[400px] md:pt-[375px] sm:pt-[305px] pb-32 mb-40 pl-[305px] pr-20">
                 <div className="">  
                   <ul className="pb-14 ">
                     <li className="cursor-pointer">
@@ -525,9 +527,60 @@ import React from 'react';const Index = () => {
                     </a>
                   </li>
                 </ul>
+              </div>
+            </div>
+            </div>
+
+
+                <div>
+                  <div class="w-[405px] 3xl:pt-48 2xl:pt-48 xl:pt-48 lg:pt-48 md:pt-4 sm:pt-4 flex flex-col justify-left ">
+                    <div>
+                      <Image className='' src="/logo.png" width={70} height={80}/>
+                    </div>
+                      <p class="pt-16 underline text-sky-400 text-2xl font-[Source+Sans+Pro] pb-11 cursor-pointer">
+                        hi@seo.do
+                      </p>
+                      <p class="text-sky-400 underline text-2xl pb-12 cursor-pointer">
+                        0 (021) 463-7333
+                      </p>
+                      <p class="text-gray-600 text-2xl font-[Source+Sans+Pro]">
+                        SEO DO OU
+                      </p>
+                      <p class="text-gray-600 text-2xl py-[18px] font-[Source+Sans+Pro]">
+                        Sepapaja tn 6
+                      </p>
+                      <p class="text-gray-600 text-2xl font-[Source+Sans+Pro]">
+                        1551, Tallinn Estonia
+                      </p>
+                      <div class="gap-x-8 grid grid-cols-3 py-12 w-2/3">
+                        <Image className='' src="/linkedin.png" width={77} height={77}/>
+                        <Image className='' src="/twitter.png" width={77} height={77}/>
+                        <Image className='' src="/facebook.png" width={77} height={77}/>
+                      </div>
+                      <p class="font-[Source+Sans+Pro] text-lg text-gray-600 pb-14">
+                        Copyright (c) 2021 Seo.do
+                      </p>
+                      <div class="flex">
+                        <div class="relative pl-5 w-5/12">
+                          <select type="text" name="language" required="" id="language" class="bg-white dark:bg-gray-800 appearance-none pl-8 py-3 w-full text-lg border border-transparent focus:outline-none text-blue-900 rounded">
+                            <option value="Switzerland">English</option>
+                            <option value="America">Arabic</option>
+                            <option value="Australia">Urdu</option>
+                          </select>
+                          <div class="z-30 cursor-pointer absolute left-0 top-3 pointer-events-none ">
+                            <Image className='' src="/Group 10.png" width={28} height={28}/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="ml-auto">
+                        <Image className='' src="/group 12.png" width={77} height={77}/>
+                      </div>
+                    </div>
+                  </div>
 
                   </div>
-                  </div>
+
+                  
 
 
 
