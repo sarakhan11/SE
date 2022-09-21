@@ -6,8 +6,8 @@ import React from 'react';const Index = () => {
       <>
 
 
-  <div className='section-1 '>
-  <div className="relative bg-[url('/hero.png')] lg:h-[994px] md:h-[900px] sm:h-[800px] md:pb-0 pb-80 w-full mx-auto bg-contain max-w-full w-full h-auto bg-no-repeat">
+  <div className='justify-center mx-auto w-full '>
+  <div className="relative bg-[url('/hero.png')] lg:h-[994px] md:h-[900px] sm:h-[800px] md:pb-0 pb-80 bg-contain max-w-full w-full h-auto bg-no-repeat">
       <div className="justify-center mx-auto ">
         <div className="">
           <div className="flex flex-wrap justify-between items-center">
@@ -190,15 +190,15 @@ import React from 'react';const Index = () => {
       
 
 
-<div className='mx-auto 3xl:pr-0 2xl:pr-0 xl:pr-0 lg:pr-0 md:pr-20 sm:pr-20'>
-            <div class="container relative bg-[url('/section-4.png')] mt-56 bg-cover bg-no-repeat text-center font-[Source+Sans+Pro] justify-center max-w-full w-full h-auto flex flex-col 3xl:pl-0 2xl:pl-0 xl:pl-0 lg:pl-16 md:pl-16 sm:pl-24 ">
+            <div class="lg:pb-32 md:pb-24 sm:pb-16 pb-10 xl:ml-24 mx-auto">
+              <div className="container mb-20 relative bg-[url('/section-6.png')] -z-30 w-full bg-contain bg-cover justify-center text-center flex flex-col bg-no-repeat mt-16 pt-14 mb-14 mx-auto">
                 <p class="pt-32 lg:text-[44px] md:text-4xl sm:text-3xl text-2xl font-bold text-white lg:pb-6 pb-4 font-[Source+Sans+Pro] lg:leading-[54px] ">
                     Bigger data = Better Trained Models
                 </p>
-                <p class="font-[Source+Sans+Pro] font-semibold lg:text-2xl md:text-xl lg:text-lg text-sm text-white lg:max-w-[860px] md:max-w-[700px] sm:max-w-[600px] mx-auto lg:pb-14 md:pb-10 sm:pb-6  pb-4">
+                <p class="mb-10 font-[Source+Sans+Pro] font-semibold lg:text-2xl md:text-xl lg:text-lg text-sm text-white lg:max-w-[860px] md:max-w-[600px] sm:max-w-[400px] mx-auto">
                   We have great competitors that can provide you with data. Our main focus is not only providing data but also insights extracted from them. To create better machine learning models, we’re collecting more data.
                 </p>
-                <div class="lg:grid lg:grid-cols-2 grid-cols-1 justify-center mx-auto gap-x-8">
+                <div class=" lg:grid lg:grid-cols-2 grid-cols-1 justify-center mx-auto gap-x-8">
                   <div class="lg:p-8 md:p-6 p-4 bg-white text-center lg:max-w-[515px] max-w-[400px] lg:-mb-14">
                     <p class=" text-gray-600 lg:text-2xl md:text-xl sm:text-lg text-md font-semibold lg:pb-10 pb-6">
                       Keywords
@@ -314,47 +314,147 @@ import React from 'react';const Index = () => {
                     </p> 
                   </div>
                 </div>
+              </div>
+
+
+
+          <div class="lg:pb-32 md:pb-24 sm:pb-16 pb-10 xl:ml-24 mx-auto">
+              <div className="container mb-20 absolute bg-[url('/section-6.png')] -z-30 w-full bg-contain bg-cover justify-center text-center flex flex-col bg-no-repeat mt-16 pt-14 mb-14 mx-auto">
+                <p class="mx-auto text-white font-[Source+Sans+Pro] font-semibold lg:text-[54px] md:text-4xl md:text-3xl text-2xl lg:leading-[54px] text-center lg:max-w-[660px] max-w-[300px] mx-auto pb-6">
+                  Get Your Custom Analysis in 60 Seconds For Free
+                </p>
+                <p class="lg:text-2xl md:text-xl sm:text-lg text-sm font-[Source+Sans+Pro] text-white lg:max-w-[700px] md:max-w-[600px] lg:max-w-[700px] max-w-[200px] mx-auto pb-10 ">
+                  Don’t spend hours to find eligible keywords to track. Don’t waste yourself in Excel to group those keywords. AI is ready to help you.
+                </p>
+                <div class="mx-auto relative lg:pb-10 md:pb-6 pb-4">
+                  <input placeholder="Enter your domain" class="mx-auto lg:py-8 md:py-6 sm:py-4 py-2 pl-8 rounded-[64px] text-gray-600 lg:w-[644px] max-w-[350px] cursor-pointer focus:outline-none"/>
+                  <button class="mx-auto transition duration-600 lg:flex hidden bg-blue-900 text-white font-[Source+Sans+Pro] p-5 absolute right-3 focus:outline-none rounded-[56px] top-3 focus:bg-blue-800 hover:bg-blue-800">
+                    Start instant demo
+                  </button>
                 </div>
-                
-        
+                <button class="mx-auto transition duration-600 lg:hidden flex text-blue-900 lg:w-[644px] max-w-[350px] bg-white font-[Source+Sans+Pro] lg:p-5 md:p-4 p-2 focus:outline-none rounded-[56px] top-3 focus:bg-blue-300 hover:bg-blue-200 mx-auto z-30 cursor-pointer">
+                  Start instant demo
+                </button>
+                <ul class="mx-auto list-disc lg:flex gap-x-6 text-center justify-center lg:mt-0 mt-6 mb-48">
+                  <li class="text-white lg:text-lg text-md">14 Days Free Trial</li>
+                  <li class="text-white lg:text-lg lg:ml-6 text-md">Free Historical Data Migration For All Accounts</li>
+                </ul>
+              </div>
+          </div>
 
 
-
-      <div className="mx-auto 3xl:pr-0 2xl:pr-0 xl:pr-0 lg:pr-0 md:pr-20 sm:pr-0 ">
-        <div className=" mb-24 relative bg-[url('/section-4.png')] w-{1280px} bg-contain bg-cover justify-center text-center flex flex-col bg-no-repeat mt-16 pt-14 pb-14 mx-auto">
-          <div className='container mx-auto'>
-          <p className="text-white font-[Source+Sans+Pro] font-semibold text-5xl 3xl:text-5xl 2xl:text-5xl xl:text-5xl lg:text-5xl md:text-4xl sm:text-3xl text-center max-w-[660px] 3xl:w-[660px] 2xl:w-[660px] xl:w-[660px] lg:w-[660px] md:w-[560px] sm:w-[360px] mx-auto pb-6">
-            Get Your Custom Analysis in 60 Seconds For Free
-          </p>
-          <p className="p-5 text-2xl font-[Source+Sans+Pro] text-white max-w-[700px] 3xl:w-[700px] 2xl:w-[700px] xl:w-[700px] lg:w-[700px] md:w-[500px] sm:w-[400px] mx-auto pb-10 ">
-            Don’t spend hours to find eligible keywords to track. 
-            Don’t waste yourself in Excel to group those keywords. 
-            AI is ready to help you.
-          </p>
-          <div className="mx-auto relative pb-10">
-          <div className='bg-white mx-auto flex rounded-full mt-10 xl:w-[544px] lg:w-[544px] md:w-[444px] sm:w-[344px] h-[78px]'>
-          <div class="mx-auto justify-center relative">
-                    <input placeholder="Enter your domain" class="lg:py-8 md:py-6 sm:py-4 py-2 pl-8 rounded-[64px] text-gray-600 lg:w-[644px] cursor-pointer focus:outline-none"/>
-                      <button class="transition lg:flex hidden duration-600 bg-blue-900 text-white font-[Source+Sans+Pro] p-5 absolute right-3 focus:outline-none rounded-[56px] top-3 focus:bg-blue-800 hover:bg-blue-800">
-                        Start instant demo
-                      </button>
-                      <button class="transition duration-600 lg:hidden flex bg-blue-900 text-white font-[Source+Sans+Pro] md:p-3 p-2 mt-4 focus:outline-none rounded-[56px] focus:bg-blue-800 hover:bg-blue-800 mx-auto">
-                        Start instant demo
-                      </button>
+          <div class="lg:flex container lg:justify-between justify-center mx-auto pt-96">
+            <div class="relative lg:w-3/5 lg:h-[1020px] justify-center mx-auto hidden xl:block lg:block md:block lg:mx-30 mx-6 flex lg:pt-[405px] md:pt-[300px] pt-[200px] lg:pb-32 pb-30 lg:mb-40 mb-10 lg:pl-[305px] pl-10 pr-10">
+            <div className="relative bg-[url('/shapes.png')] 3xl:max-w-[965px] 2xl:max-w-[965px] xl:max-w-[865px] lg:max-w-[745px] md:max-w-[465px] sm:max-w-[565px] 3xl:h-[975px] 2xl:h-[975px] xl:h-[975px] lg:h-[675px] md:h-[575px] sm:h-[575px] bg-contain justify-center flex bg-no-repeat 3xl:pt-[400px] 2xl:pt-[400px] xl:pt-[400px] lg:pt-[250px] md:pt-[165px] sm:pt-[305px] pb-32 mb-40 xl:pl-[305px] lg:pl-[205px] md:pl-[105px] sm:pl-[305px] ">
+            <div className="">  
+            <ul className="-z-30 ">
+              <li className="cursor-pointer">
+                <a className="text-white font-semi-bold font-[Source+Sans+Pro] cursor-pointer text-2xl">
+                  Company
+                </a>
+              </li>
+              <li>
+                <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] py-5 text-white transition duration-300 ">
+                  About
+                </a>
+              </li>
+              <li>
+                <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] text-white transition duration-300 ">
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] text-white transition duration-300 ">
+                  Career
+                </a>
+              </li>
+              <li>
+                <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] text-white transition duration-300  active">
+                  Contact
+                </a>
+              </li>
+            </ul>
+            <ul className="pb-14">
+              <li className="cursor-pointer">
+                <a className="text-white font-semi-bold font-[Source+Sans+Pro] cursor-pointer text-2xl">
+                  Help
+                </a>
+              </li>
+              <li>
+                <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] text-white transition duration-300">
+                  Knowledge Base
+                </a>
+              </li>
+            </ul>
+          </div>
+          <ul className="pb-56 pl-14 pr-72">
+            <li className="cursor-pointer">
+              <a className="text-white font-semi-bold font-[Source+Sans+Pro] cursor-pointer text-2xl">
+                Product
+              </a>
+            </li>
+            <li>
+              <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] py-5 text-white transition duration-300 ">
+                CLI
+              </a>
+            </li>
+            <li>  
+              <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] py-5 text-white transition duration-300 ">
+                Pricing
+              </a>
+            </li>
+            <li>
+              <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] py-5 pr-30 text-white transition duration-300 ">
+                Features
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+              <div>
+            <div class="w-[405px] 3xl:pt-48 2xl:pt-48 xl:pt-48 lg:pt-48 md:pt-4 sm:pt-4 flex flex-col justify-center items-center mx-auto mt-96">
+              <div>
+                <Image className='' src="/logo.png" width={70} height={80}/>
+              </div>
+                <p class="pt-16 underline text-sky-400 text-2xl font-[Source+Sans+Pro] pb-11 cursor-pointer">
+                  hi@seo.do
+                </p>
+                <p class="text-sky-400 underline text-2xl pb-12 cursor-pointer">
+                  0 (021) 463-7333
+                </p>
+                <p class="text-gray-600 text-2xl font-[Source+Sans+Pro]">
+                  SEO DO OU
+                </p>
+                <p class="text-gray-600 text-2xl py-[18px] font-[Source+Sans+Pro]">
+                  Sepapaja tn 6
+                </p>
+                <p class="text-gray-600 text-2xl font-[Source+Sans+Pro]">
+                  1551, Tallinn Estonia
+                </p>
+                <div class="gap-x-8 grid grid-cols-3 py-12 w-2/3">
+                  <Image className='' src="/linkedin.png" width={77} height={77}/>
+                  <Image className='' src="/twitter.png" width={77} height={77}/>
+                  <Image className='' src="/facebook.png" width={77} height={77}/>
+                </div>
+                <p class="font-[Source+Sans+Pro] text-lg text-gray-600 pb-14">
+                  Copyright (c) 2021 Seo.do
+                </p>
+                <div class="flex">
+                  <div class="relative pl-5 w-5/12">
+                    <select type="text" name="language" required="" id="language" class="bg-white dark:bg-gray-800 appearance-none pl-8 py-3 w-full text-lg border border-transparent focus:outline-none text-blue-900 rounded">
+                      <option value="Switzerland">English</option>
+                      <option value="America">Arabic</option>
+                      <option value="Australia">Urdu</option>
+                    </select>
+                    <div class="z-30 cursor-pointer absolute left-0 top-3 pointer-events-none ">
+                      <Image className='' src="/Group 10.png" width={28} height={28}/>
                     </div>
-              </div>
-              </div>
-              <ul className="mx-auto list-disc flex gap-x-6 text-center justify-center pb-24">
-                <li className="text-white text-lg">
-                  14 Days Free Trial
-                </li>
-                <li className="text-white text-lg ml-6">
-                  Free Historical Data Migration For All Accounts
-                </li>
-              </ul>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
+
+            </div>
 
 
 
