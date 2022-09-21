@@ -5,8 +5,9 @@ import React from 'react';const Index = () => {
     return (
       <>
 
+
   <div className='section-1 '>
-  <div className="relative bg-[url('/hero.png')] bg-contain max-w-full w-full h-auto bg-no-repeat">
+  <div className="relative bg-[url('/hero.png')] lg:h-[994px] md:h-[900px] sm:h-[800px] md:pb-0 pb-80 w-full mx-auto bg-contain max-w-full w-full h-auto bg-no-repeat">
       <div className="justify-center mx-auto ">
         <div className="">
           <div className="flex flex-wrap justify-between items-center">
@@ -61,49 +62,52 @@ import React from 'react';const Index = () => {
           </nav>
         </div>
       </div>
-      <div className="lg:flex 3xl:pt-32 2xl:pt-32 xl:pt-32 lg:pt-32 md:pt-20 sm:pt-0 lg:pb-28 md:pb-18 pb-8 items-center container justify-center mx-auto px-10" id="home-section">
+
+
+
+      <div className="lg:flex 3xl:pt-32 2xl:pt-32 xl:pt-20 lg:pt-4 md:pt-4 sm:pt-0 lg:pb-28 md:pb-18 pb-8 items-center container justify-center mx-auto px-10" id="home-section">
             <div className="lg:pb-0 pb-8">
 
-              <p className="lg:text-8xl md:text-7xl md:text-5xl text-4xl font-bold z-20 text-white text-center ">
-                Data Science
-              </p>
-              <p className="lg:text-8xl md:text-7xl md:text-5xl text-4xl font-bold z-20 text-white text-center ">
-                Meets SEO
-              </p>
-
-              <p className="lg:text-2xl md:text-2xl mt-6 md:text-2xl text-xl font-normal z-20 text-white text-center align-center justify-center item-center ">
-                Find all the SEO secrets of your competitors and track them
-              </p>
-              <p className="lg:text-2xl md:text-2xl md:text-2xl text-xl font-normal z-20 text-white text-center align-center justify-center item-center ">
-                daily without hours of boring keyword research & grouping
-              </p>
-
-              <div className='bg-white mx-auto flex rounded-full mt-10 xl:w-[544px] lg:w-[544px] md:w-[544px] sm:w-[544px] h-[78px]'>
-                  <input
-                    placeholder="Your email address"
-                    className="text-lg text-blue-900 py-7 px-4 bg-white z-30 w-full focus:outline-none rounded-full focus:bg-transparent"
-                  />
-                  <button className="ml-3 text-center font-semibold text-base bg-blue-900 hover:bg-blue-600 focus:bg-blue-600 text-white px-4 py-2 m-4 rounded-full">
-                    <h1 className='w-20'>
-                      Book Now
-                    </h1>  
-                  </button>
-              </div>
+            <div class="container justify-center mx-auto text-center pb-32">
+                <p class="text-white font-bold lg:text-8xl md:text-5xl sm:text-3xl text-2xl font-[Source+Sans+Pro] lg:pb-6 md:pb-4 pb-2 lg:max-w-[844px] md:max-w-[300px] max-w-[200px] mx-auto lg:leading-[96px] leading-normal">
+                  Data Science Meets SEO
+                </p>
+                <div class="flex flex-col justify-center mx-auto lg:pb-10 md:pb-5 pb-2">
+                  <p class=" font-[Source+Sans+Pro] lg:text-2xl md:text-xl sm:text-lg text-sm lg:px-0 px-10 text-white mx-auto lg:max-w-[631px] md:max-w-[500px] sm:max-w-[450px] lg:pb-10 pb-5">
+                    Find all the SEO secrets of your competitors and track them daily without hours of boring keyword research &amp; grouping
+                  </p>
+                  <div class="mx-auto justify-center relative">
+                    <input placeholder="Enter your domain" class="lg:py-8 md:py-6 sm:py-4 py-2 pl-8 rounded-[64px] text-gray-600 lg:w-[644px] cursor-pointer focus:outline-none"/>
+                      <button class="transition lg:flex hidden duration-600 bg-blue-900 text-white font-[Source+Sans+Pro] p-5 absolute right-3 focus:outline-none rounded-[56px] top-3 focus:bg-blue-800 hover:bg-blue-800">
+                        Start instant demo
+                      </button>
+                      <button class="transition duration-600 lg:hidden flex bg-blue-900 text-white font-[Source+Sans+Pro] md:p-3 p-2 mt-4 focus:outline-none rounded-[56px] focus:bg-blue-800 hover:bg-blue-800 mx-auto">
+                        Start instant demo
+                      </button>
+                    </div>
+                  </div>
+                  <ul class="mx-auto lg:list-disc lg:flex gap-x-6 text-center justify-center mx-auto ">
+                    <li class="text-white lg:text-lg text-md">No credit cards</li>
+                    <li class="text-white lg:text-lg text-md ml-6">Ready to use in five minutes</li>
+                  </ul>
+                </div>
+                <div className='mt-72'></div>
+                <div class="absolute left-1/2 mt-36 transform -translate-x-1/2 bottom-[20px] text-center" >
+                  <p class="text-blue-900 lg:text-[54px] text-3xl font-bold pb-6 font-[Source+Sans+Pro] ">Features</p>
+                  <p class="text-gray-600 font-[Source+Sans+Pro] text-2xl xl:max-w-[660px] lg:max-w-[500px] md:max-w-[400px] sm:max-w-[300px] max-w-[200px] mx-auto">You found us! Why spend your valuable hours to understand yet another rank tracker?</p>
+                  <div class="mx-auto justify-center relative">
+                    <input placeholder="Enter your domain" class="lg:py-8 md:py-6 sm:py-4 py-2 pl-8 rounded-[64px] text-gray-600 lg:w-[644px] cursor-pointer focus:outline-none"/>
+                      <button class="transition lg:flex hidden duration-600 bg-blue-900 text-white font-[Source+Sans+Pro] p-5 absolute right-3 focus:outline-none rounded-[56px] top-3 focus:bg-blue-800 hover:bg-blue-800">
+                        Start instant demo
+                      </button>
+                      <button class="transition duration-600 lg:hidden flex bg-blue-900 text-white font-[Source+Sans+Pro] md:p-3 p-2 mt-4 focus:outline-none rounded-[56px] focus:bg-blue-800 hover:bg-blue-800 mx-auto">
+                        Start instant demo
+                      </button>
+                    </div>
+                </div>
+                
               
-              <div className='mx-auto my-10'>
-                <ul className="mx-auto list-disc flex gap-x-6 text-center justify-center mx-auto flex 3xl:flex-row 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col">
-                <li className="3xl:text-white 2xl:text-white xl:text-white lg:text-indigo-800 md:text-indigo-800 sm:text-indigo-800 text-indigo-800 text-lg">
-                No credit cards
-                </li>
-                <li className="3xl:text-white 2xl:text-white xl:text-white lg:text-indigo-800 md:text-indigo-800 sm:text-indigo-800 text-indigo-800 text-lg ml-6">
-                Ready to use in five minutes
-                </li>
-              </ul>
-              </div>
-              <div className='mt-96'></div>
-
-              
-                  
+     
             </div>
           </div>
         </div>
@@ -112,33 +116,7 @@ import React from 'react';const Index = () => {
   
 
 
-        <div className='section-2'>
-        <h1 className='relative 3xl:text-6xl 2xl:text-6xl xl:text-6xl lg:text-6xl md:text-4xl sm:text-4xl text-blue-800 text-6xl font-bold text-center 3xl:-mt-48 2xl:-mt-48 xl:-mt-48 lg:-mt-48 md:-mt-96 sm:-mt-96'>
-                Features
-              </h1>
-              <p className='relative text-black 3xl:text-2xl 2xl:text-2xl xl:text-2xl lg:text-2xl md:text-md sm:text-md text-md font-normal text-center leading-8'>
-                You found us! Why spend your valuable hours to understand
-              </p>
-              <p className='relative text-black 3xl:text-2xl 2xl:text-2xl xl:text-2xl lg:text-2xl md:text-md sm:text-md text-md font-normal text-center'>
-                yet another rank tracker?
-              </p>
-
-              <div className='relative'>
-                <div className='bg-blue-100 mx-auto flex rounded-full mt-10 xl:w-[321px] lg:w-[321px] md:w-[321px] sm:w-[321px] h-[72px] '>
-                    <button className="ml-3 text-center font-semibold text-base bg-blue-900 hover:bg-blue-600 focus:bg-blue-600 text-white px-4 py-2 m-4 rounded-full">
-                      <h1 className='w-20'>
-                        Book Now
-                      </h1>  
-                    </button>
-                    <input
-                      placeholder="Your email address"
-                      className="text-lg text-blue-900 py-7 px-4 bg-blue-100 z-30 w-full focus:outline-none rounded-full focus:bg-transparent"
-                    />
-                </div>
-              </div>
-          </div>
-            
-
+        
 
       <div className='container:2xl py-4 px-10 mt-24 grid grid-cols lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 lg:flex-row xl:flex-row 2xl:flex-row'>
         <div className='mx-8 my-8'>
@@ -209,115 +187,69 @@ import React from 'react';const Index = () => {
       </div>
 
 
+      
+
+
 <div className='mx-auto 3xl:pr-0 2xl:pr-0 xl:pr-0 lg:pr-0 md:pr-20 sm:pr-20'>
             <div class="container relative bg-[url('/section-4.png')] mt-56 bg-cover bg-no-repeat text-center font-[Source+Sans+Pro] justify-center max-w-full w-full h-auto flex flex-col 3xl:pl-0 2xl:pl-0 xl:pl-0 lg:pl-16 md:pl-16 sm:pl-24 ">
-                <p class="absolute my-8 3xl:pl-0 2xl:pl-0 xl:pl-0 lg:pl-0 md:pl-20 sm:pl-24 3xl:text-5xl 2xl:text-5xl xl:text-5xl lg:text-5xl md:text-4xl sm:text-2xl text-4xl text-white font-bold 3xl:top-32 2xl:top-32 xl:top-32 lg:top-32 md:top-8 sm:top-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-[Source+Sans+Pro] ">
+                <p class="pt-32 lg:text-[44px] md:text-4xl sm:text-3xl text-2xl font-bold text-white lg:pb-6 pb-4 font-[Source+Sans+Pro] lg:leading-[54px] ">
                     Bigger data = Better Trained Models
                 </p>
-                <p class="absolute 3xl:pl-0 2xl:pl-0 xl:pl-0 lg:pl-0 md:pl-20 sm:pl-24 font-[Source+Sans+Pro] text-md my-8 pt-24 text-white text-center 3xl:top-56 2xl:top-56 xl:top-56 lg:top-56 md:top-48 sm:top-48 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                    We have great competitors that can provide you with data. 
-                    Our main focus is not only providing data but also insights 
-                    extracted from them. To create better machine learning models, 
-                    we’re collecting more data.
+                <p class="font-[Source+Sans+Pro] font-semibold lg:text-2xl md:text-xl lg:text-lg text-sm text-white lg:max-w-[860px] md:max-w-[700px] sm:max-w-[600px] mx-auto lg:pb-14 md:pb-10 sm:pb-6  pb-4">
+                  We have great competitors that can provide you with data. Our main focus is not only providing data but also insights extracted from them. To create better machine learning models, we’re collecting more data.
                 </p>
-
-
-                <div className="flex justify-center items-center gap-16 pt-96 3xl:flex-row 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col ">
-                  <div className="bg-white drop-shadow-2xl 3xl:h-[265px] 2xl:h-[265px] xl:h-[265px] lg:h-[265px] md:h-[265px] sm:h-[365px] 3xl:w-[515px] 2xl:w-[515px] xl:w-[515px] lg:w-[515px] md:w-[515px] sm:w-[215px] h-[265px]">
-                    <h1 className="text-center mt-12 text-semibold text-xl">
+                <div class="lg:grid lg:grid-cols-2 grid-cols-1 justify-center mx-auto gap-x-8">
+                  <div class="lg:p-8 md:p-6 p-4 bg-white text-center lg:max-w-[515px] max-w-[400px] lg:-mb-14">
+                    <p class=" text-gray-600 lg:text-2xl md:text-xl sm:text-lg text-md font-semibold lg:pb-10 pb-6">
                       Keywords
-                    </h1>
-                  <div className="flex items-center justify-center mt-4">
-                    <h1 className="text-5xl 3xl:text-5xl 2xl:text-4xl xl:text-5xl lg:text-5xl md:text-5xl sm:text-3xl font-bold text-blue-900">
-                      2.
-                    </h1>
-                    <h1 className="3xl:text-4xl 2xl:text-4xl xl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl text-4xl font-bold text-blue-900">
-                      282.150.458
-                    </h1>
-                  </div>
-
-            <div className='flex '>
-
-                <div className="flex 3xl:flex-row 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col  items-center justify-center gap-8 mt-12 mb-12 3xl:ml-16 2xl:ml-16 xl:ml-16 lg:ml-16 md:ml-16 sm:ml-2">
-                  <div className="">
-                    <div className="flex ">
-                      <div className="">
-                        <Image className='' src="/Group 7.png" width={40} height={40}/>
-                      </div>
-                      <div className="">
-                        <h1 className="text-gray-700 text-xl w-[126px]">
-                          87 Countries
-                        </h1>
-                      </div>
+                    </p>
+                    <p class="text-blue-900 lg:text-[55px] lg:leading=[55px] md:text-5xl sm:text-4xl text-3xl font-semibold font-[Source+Sans+Pro] lg:pb-10 pb-6">
+                      2.282.150.458
+                    </p>
+                    <div class="lg:flex gap-10 justify-center mx-auto">
+                      <div class="flex items-center my-auto justify-center">
+                      <Image className='' src="/Group 7.png" width={40} height={40}/>
+                      <p class=" font-[Source+Sans+Pro] text-blue-900 lg:text-2xl md:text-xl sm:text-lg text-sm my-auto lg:pl-5 pl-3 pt-2">
+                        87 Countries
+                      </p>
+                    </div>
+                    <div class="flex items-center my-auto lg:pt-0 pt-4 justify-center">
+                    <Image className='' src="/Group 7.png" width={40} height={40}/>
+                      <p class=" font-[Source+Sans+Pro] text-blue-900 lg:text-2xl md:text-xl sm:text-lg text-sm my-auto lg:pl-5 pl-3 pt-2">
+                        38 Languages
+                      </p>
                     </div>
                   </div>
-
-                  <div className="">
-                    <div className="flex ">
-                      <div className="">
-                        <Image className='' src="/Group 7.png" width={40} height={40}/>
-                      </div>
-                      <div className="">
-                        <h1 className="text-gray-700 text-xl w-[126px]">
-                          87 Countries
-                        </h1>
-                      </div>
+                </div>
+                <div class="lg:p-8 md:p-6 p-4 bg-white text-center lg:max-w-[515px] max-w-[400px] lg:-mb-14 mb-0 lg:mt-0 mt-4">
+                  <p class=" text-gray-600 lg:text-2xl md:text-xl sm:text-lg text-md font-semibold lg:pb-7 pb-4">
+                    Search Volume
+                  </p>
+                  <p class="text-blue-900 lg:text-[55px] md:text-5xl sm:text-4xl text-3xl font-semibold font-[Source+Sans+Pro] lg:pb-10 pb-6">
+                    21,116,1 Billion
+                  </p>
+                  <div class="lg:flex gap-6 justify-center mx-auto">
+                    <div class="flex items-center my-auto justify-center">
+                    <Image className='' src="/Group 7.png" width={40} height={40}/>
+                      <p class=" font-[Source+Sans+Pro] text-blue-900 lg:text-2xl md:text-xl sm:text-lg text-sm my-auto lg:pl-4 pl-3 pt-2">
+                        4+ Billion Keywords
+                      </p>
+                    </div>
+                    <div class="flex items-center my-auto lg:pt-0 pt-4 sm:justify-center">
+                    <Image className='' src="/Group 7.png" width={40} height={40}/>
+                      <p class=" font-[Source+Sans+Pro] text-blue-900 lg:text-2xl md:text-xl sm:text-lg text-sm my-auto lg:pl-4 pl-3 pt-2">
+                        34TB Data
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+         </div>
+            
 
 
-            <div className="bg-white drop-shadow-2xl 3xl:h-[265px] 2xl:h-[265px] xl:h-[265px] lg:h-[265px] md:h-[265px] sm:h-[365px] 3xl:w-[515px] 2xl:w-[515px] xl:w-[515px] lg:w-[515px] md:w-[515px] sm:w-[215px] h-[265px]">
-                  <h1 className="text-center mt-12 text-semibold text-xl">
-                    Keywords
-                  </h1>
-                <div className="flex items-center justify-center mt-4">
-                  <h1 className="text-5xl 3xl:text-5xl 2xl:text-4xl xl:text-5xl lg:text-5xl md:text-5xl sm:text-3xl font-bold text-blue-900">
-                    21.
-                  </h1>
-                  <h1 className="3xl:text-4xl 2xl:text-4xl xl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl text-4xl font-bold text-blue-900">
-                    282.150.458
-                  </h1>
-                </div>
-
-            <div className='flex '>
-
-                <div className="flex 3xl:flex-row 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col  items-center justify-center gap-8 mt-12 mb-12 3xl:ml-16 2xl:ml-16 xl:ml-16 lg:ml-16 md:ml-16 sm:ml-2">
-                  <div className="">
-                    <div className="flex ">
-                      <div className="">
-                        <Image className='' src="/Group 7.png" width={40} height={40}/>
-                      </div>
-                      <div className="">
-                        <h1 className="text-gray-700 text-xl w-[126px]">
-                          87 Countries
-                        </h1>
-                      </div>
-                    </div>
-                  </div>
-                
-
-                    <div className="flex ">
-                      <div className="">
-                        <Image className='' src="/Group 7.png" width={40} height={40}/>
-                      </div>
-                      <div className="">
-                        <h1 className="text-gray-700 text-xl w-[126px]">
-                          87 Countries
-                        </h1>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
-
-
-
+          
 
 
         <div className="container mx-auto mt-32">
@@ -339,85 +271,51 @@ import React from 'react';const Index = () => {
 
 
 
-
-          <div className="justify-center items-center flex 3xl:flex-row 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col mt-32 relative">
-
-          
-          <div className="flex flex-col ">
-                <div className='flex 3xl:flex-row 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col gap-16 mb-16'>
-
-                  <div className='flex gap-8'>
-                    <div className="top-16 left-0 flex gap-12">
-                      <div className=" bg-white p-2 border">
-                        <Image className='' src="/Group 9.png" width={40} height={40}/>
-                        <h1 className="text-4xl mt-5 text-blue-900 font-bold w-[223px]">
-                          Keyword Specific CTR Calculations
-                        </h1>
-                        <h1 className="text-2xl text-gray-800 font-semibold mt-12 w-[544px]">
-                          Most of the rank trackers use fixed CTRs for traffic &amp;
-                          visibility. It could be misleading in 2021 but in 2022 
-                          it is the trend!
-                        </h1>
-                      </div>
-                    </div> 
+                <div class="grid lg:grid-cols-2 grid-cols-1 gap-8 justify-center mx-auto container">
+                  <div class="bg-white lg:p-10 p-6 max-w-[650px] text-center lg:text-left">
+                    <Image className='' src="/Group 9.png" width={40} height={40}/>
+                    <p class="lg:pt-12 md:pt-10 sm:pt-6 pt-4 lg:leading-[36px] text-blue-900 font-bold lg:text-[28px] md:text-2xl sm:text-xl text-lg lg:pb-8 md:pb-6 sm:pb-4 pb-2 lg:max-w-[553px]">
+                      Pixel Rank: Industry’s Response to Feature-Rich SERPS
+                    </p>
+                    <p class="text-gray-600 lg:text-2xl md:text-xl sm:text-lg text-md ">
+                      Ranks belong to old school SEOs. To cope with 2021’s SERP landscape we need to measure pixels instead of ranks.
+                    </p> 
                   </div>
 
-                  <div className='flex gap-8'>
-                    <div className="top-16 left-24 flex gap-12">
-                      <div className=" bg-white p-6 border">
-                        <Image className='' src="/Group 9.png" width={40} height={40}/>
-                        <h1 className="text-4xl mt-5 text-blue-900 font-bold w-[223px]">
-                          Keyword Specific CTR Calculations
-                        </h1>
-                        <h1 class="text-2xl text-gray-800 font-semibold mt-12 w-[544px]">
-                          Most of the rank trackers use fixed CTRs for traffic &amp;
-                          visibility. It could be misleading in 2021 but in 2022 
-                          it is the trend!
-                        </h1>
-                      </div>
-                    </div> 
-                  </div>
-
-               </div>
-
-
-               <div className='flex 3xl:flex-row 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col gap-16 mb-16'>
-
-                  <div className='flex gap-8'>
-                    <div className="top-16 left-0 flex gap-12">
-                      <div className=" bg-white p-2 border">
-                        <Image className='' src="/Group 9.png" width={40} height={40}/>
-                        <h1 className="text-4xl mt-5 text-blue-900 font-bold w-[223px]">
-                          Keyword Specific CTR Calculations
-                        </h1>
-                        <h1 className="text-2xl text-gray-800 font-semibold mt-12 w-[544px]">
-                          Most of the rank trackers use fixed CTRs for traffic &amp;
-                          visibility. It could be misleading in 2021 but in 2022 
-                          it is the trend!
-                        </h1>
-                      </div>
-                    </div> 
-                  </div>
-
-                  <div className='flex gap-8'>
-                    <div className="top-16 left-24 flex gap-12">
-                      <div className=" bg-white p-6 border">
-                        <Image className='' src="/Group 9.png" width={40} height={40}/>
-                        <h1 className="text-4xl mt-5 text-blue-900 font-bold w-[223px]">
-                          Keyword Specific CTR Calculations
-                        </h1>
-                        <h1 className="text-2xl text-gray-800 font-semibold mt-12 w-[544px]">
-                          Most of the rank trackers use fixed CTRs for traffic &amp;
-                          visibility. It could be misleading in 2021 but in 2022 
-                          it is the trend!
-                        </h1>
-                      </div>
-                    </div> 
+                  <div class="bg-white lg:p-10 p-6 max-w-[650px] text-center lg:text-left">
+                    <Image className='' src="/Group 9.png" width={40} height={40}/>
+                    <p class="lg:pt-12 md:pt-10 sm:pt-6 pt-4 lg:leading-[36px] text-blue-900 font-bold lg:text-[28px] md:text-2xl sm:text-xl text-lg lg:pb-8 md:pb-6 sm:pb-4 pb-2 lg:max-w-[553px]">
+                      Pixel Rank: Industry’s Response to Feature-Rich SERPS
+                    </p>
+                    <p class="text-gray-600 lg:text-2xl md:text-xl sm:text-lg text-md ">
+                      Ranks belong to old school SEOs. To cope with 2021’s SERP landscape we need to measure pixels instead of ranks.
+                    </p> 
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
+
+                <div class="grid lg:grid-cols-2 grid-cols-1 gap-8 justify-center mx-auto container">
+                  <div class="bg-white lg:p-10 p-6 max-w-[650px] text-center lg:text-left">
+                    <Image className='' src="/Group 9.png" width={40} height={40}/>
+                    <p class="lg:pt-12 md:pt-10 sm:pt-6 pt-4 lg:leading-[36px] text-blue-900 font-bold lg:text-[28px] md:text-2xl sm:text-xl text-lg lg:pb-8 md:pb-6 sm:pb-4 pb-2 lg:max-w-[553px]">
+                      Pixel Rank: Industry’s Response to Feature-Rich SERPS
+                    </p>
+                    <p class="text-gray-600 lg:text-2xl md:text-xl sm:text-lg text-md ">
+                      Ranks belong to old school SEOs. To cope with 2021’s SERP landscape we need to measure pixels instead of ranks.
+                    </p> 
+                  </div>
+
+                  <div class="bg-white lg:p-10 p-6 max-w-[650px] text-center lg:text-left">
+                    <Image className='' src="/Group 9.png" width={40} height={40}/>
+                    <p class="lg:pt-12 md:pt-10 sm:pt-6 pt-4 lg:leading-[36px] text-blue-900 font-bold lg:text-[28px] md:text-2xl sm:text-xl text-lg lg:pb-8 md:pb-6 sm:pb-4 pb-2 lg:max-w-[553px]">
+                      Pixel Rank: Industry’s Response to Feature-Rich SERPS
+                    </p>
+                    <p class="text-gray-600 lg:text-2xl md:text-xl sm:text-lg text-md ">
+                      Ranks belong to old school SEOs. To cope with 2021’s SERP landscape we need to measure pixels instead of ranks.
+                    </p> 
+                  </div>
+                </div>
+                </div>
+                
         
 
 
@@ -435,15 +333,15 @@ import React from 'react';const Index = () => {
           </p>
           <div className="mx-auto relative pb-10">
           <div className='bg-white mx-auto flex rounded-full mt-10 xl:w-[544px] lg:w-[544px] md:w-[444px] sm:w-[344px] h-[78px]'>
-                  <input
-                    placeholder="Your email address"
-                    className="text-lg text-blue-900 py-7 px-4 bg-white z-30 w-full focus:outline-none rounded-full focus:bg-transparent"
-                  />
-                  <button className="ml-3 text-center font-semibold text-base bg-blue-900 hover:bg-blue-600 focus:bg-blue-600 text-white px-4 py-2 m-4 rounded-full">
-                    <h1 className='w-20'>
-                      Book Now
-                    </h1>  
-                  </button>
+          <div class="mx-auto justify-center relative">
+                    <input placeholder="Enter your domain" class="lg:py-8 md:py-6 sm:py-4 py-2 pl-8 rounded-[64px] text-gray-600 lg:w-[644px] cursor-pointer focus:outline-none"/>
+                      <button class="transition lg:flex hidden duration-600 bg-blue-900 text-white font-[Source+Sans+Pro] p-5 absolute right-3 focus:outline-none rounded-[56px] top-3 focus:bg-blue-800 hover:bg-blue-800">
+                        Start instant demo
+                      </button>
+                      <button class="transition duration-600 lg:hidden flex bg-blue-900 text-white font-[Source+Sans+Pro] md:p-3 p-2 mt-4 focus:outline-none rounded-[56px] focus:bg-blue-800 hover:bg-blue-800 mx-auto">
+                        Start instant demo
+                      </button>
+                    </div>
               </div>
               </div>
               <ul className="mx-auto list-disc flex gap-x-6 text-center justify-center pb-24">
@@ -460,128 +358,7 @@ import React from 'react';const Index = () => {
 
 
 
-            <div className="container justify-between 3xl:mx-auto 2xl:mx-auto xl:mx-auto lg:mx-auto md:mx-24 sm:mx-36 flex 3xl:flex-row 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col ">
-          <div className=''>
-            <div>
-              <div className="relative bg-[url('/shapes.png')] max-w-[965px] h-[975px] bg-contain justify-center flex bg-no-repeat 3xl:pt-[400px] 2xl:pt-[400px] xl:pt-[400px] lg:pt-[400px] md:pt-[375px] sm:pt-[305px] pb-32 mb-40 pl-[305px] pr-20">
-                <div className="">  
-                  <ul className="pb-14 ">
-                    <li className="cursor-pointer">
-                      <a className="text-white font-semi-bold font-[Source+Sans+Pro] cursor-pointer text-2xl">
-                        Company
-                      </a>
-                    </li>
-                    <li>
-                      <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] py-5 text-white transition duration-300 ">
-                        About
-                      </a>
-                    </li>
-                    <li>
-                      <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] text-white transition duration-300 ">
-                        Blog
-                      </a>
-                    </li>
-                    <li>
-                      <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] text-white transition duration-300 ">
-                        Career
-                      </a>
-                    </li>
-                    <li>
-                      <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] text-white transition duration-300  active">
-                        Contact
-                      </a>
-                    </li>
-                  </ul>
-                  <ul className="pb-14">
-                    <li className="cursor-pointer">
-                      <a className="text-white font-semi-bold font-[Source+Sans+Pro] cursor-pointer text-2xl">
-                        Help
-                      </a>
-                    </li>
-                    <li>
-                      <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] text-white transition duration-300">
-                        Knowledge Base
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <ul className="pb-56 pl-14 pr-72">
-                  <li className="cursor-pointer">
-                    <a className="text-white font-semi-bold font-[Source+Sans+Pro] cursor-pointer text-2xl">
-                      Product
-                    </a>
-                  </li>
-                  <li>
-                    <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] py-5 text-white transition duration-300 ">
-                      CLI
-                    </a>
-                  </li>
-                  <li>  
-                    <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] py-5 text-white transition duration-300 ">
-                      Pricing
-                    </a>
-                  </li>
-                  <li>
-                    <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] py-5 pr-30 text-white transition duration-300 ">
-                      Features
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            </div>
-
-
-                <div>
-                  <div class="w-[405px] 3xl:pt-48 2xl:pt-48 xl:pt-48 lg:pt-48 md:pt-4 sm:pt-4 flex flex-col justify-left ">
-                    <div>
-                      <Image className='' src="/logo.png" width={70} height={80}/>
-                    </div>
-                      <p class="pt-16 underline text-sky-400 text-2xl font-[Source+Sans+Pro] pb-11 cursor-pointer">
-                        hi@seo.do
-                      </p>
-                      <p class="text-sky-400 underline text-2xl pb-12 cursor-pointer">
-                        0 (021) 463-7333
-                      </p>
-                      <p class="text-gray-600 text-2xl font-[Source+Sans+Pro]">
-                        SEO DO OU
-                      </p>
-                      <p class="text-gray-600 text-2xl py-[18px] font-[Source+Sans+Pro]">
-                        Sepapaja tn 6
-                      </p>
-                      <p class="text-gray-600 text-2xl font-[Source+Sans+Pro]">
-                        1551, Tallinn Estonia
-                      </p>
-                      <div class="gap-x-8 grid grid-cols-3 py-12 w-2/3">
-                        <Image className='' src="/linkedin.png" width={77} height={77}/>
-                        <Image className='' src="/twitter.png" width={77} height={77}/>
-                        <Image className='' src="/facebook.png" width={77} height={77}/>
-                      </div>
-                      <p class="font-[Source+Sans+Pro] text-lg text-gray-600 pb-14">
-                        Copyright (c) 2021 Seo.do
-                      </p>
-                      <div class="flex">
-                        <div class="relative pl-5 w-5/12">
-                          <select type="text" name="language" required="" id="language" class="bg-white dark:bg-gray-800 appearance-none pl-8 py-3 w-full text-lg border border-transparent focus:outline-none text-blue-900 rounded">
-                            <option value="Switzerland">English</option>
-                            <option value="America">Arabic</option>
-                            <option value="Australia">Urdu</option>
-                          </select>
-                          <div class="z-30 cursor-pointer absolute left-0 top-3 pointer-events-none ">
-                            <Image className='' src="/Group 10.png" width={28} height={28}/>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="ml-auto">
-                        <Image className='' src="/group 12.png" width={77} height={77}/>
-                      </div>
-                    </div>
-                  </div>
-
-                  </div>
-
-                  
-
+           
 
 
 
