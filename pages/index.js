@@ -345,7 +345,7 @@ import React from 'react';const Index = () => {
 
           <div class="lg:flex container lg:justify-between justify-center mx-auto pt-96">
             <div class="relative lg:w-3/5 lg:h-[1020px] justify-center mx-auto hidden xl:block lg:block md:block lg:mx-30 mx-6 flex lg:pt-[405px] md:pt-[300px] pt-[200px] lg:pb-32 pb-30 lg:mb-40 mb-10 lg:pl-[305px] pl-10 pr-10">
-            <div className="relative bg-[url('/shapes.png')] 3xl:max-w-[965px] 2xl:max-w-[965px] xl:max-w-[865px] lg:max-w-[745px] md:max-w-[465px] sm:max-w-[565px] 3xl:h-[975px] 2xl:h-[975px] xl:h-[975px] lg:h-[675px] md:h-[575px] sm:h-[575px] bg-contain justify-center flex bg-no-repeat 3xl:pt-[400px] 2xl:pt-[400px] xl:pt-[400px] lg:pt-[250px] md:pt-[165px] sm:pt-[305px] pb-32 mb-40 xl:pl-[305px] lg:pl-[205px] md:pl-[105px] sm:pl-[305px] ">
+            <div className="relative bg-[url('/shapes.png')] 3xl:max-w-[965px] 2xl:max-w-[965px] xl:max-w-[865px] lg:max-w-[745px] md:max-w-[465px] sm:max-w-[565px] 3xl:h-[975px] 2xl:h-[975px] xl:h-[975px] lg:h-[675px] md:h-[575px] sm:h-[575px] bg-contain justify-center flex bg-no-repeat 3xl:pt-[400px] 2xl:pt-[400px] xl:pt-[200px] lg:pt-[250px] md:pt-[165px] sm:pt-[305px] pb-32 mb-40 xl:pl-[305px] lg:pl-[205px] md:pl-[255px] sm:pl-[305px] ">
             <div className="">  
             <ul className="-z-30 ">
               <li className="cursor-pointer">
