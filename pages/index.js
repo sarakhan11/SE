@@ -7,7 +7,7 @@ import React from 'react';const Index = () => {
 
 
   <div className='justify-center mx-auto w-full '>
-  <div className="relative bg-[url('/hero.png')] lg:h-[994px] md:h-[900px] sm:h-[800px] md:pb-0 pb-80 bg-contain max-w-full w-full h-auto bg-no-repeat">
+  <div className="relative xl:bg-[url('/hero.png')] lg:bg-[url('/hero.png')] md:bg-[url('/hero.png')] sm:bg-[url('/hero.png')] 2xl:bg-[url('/hero.png')] bg-[url('/hero.png')] layout-fill md:pb-0 pb-80 bg-contain bg-no-repeat ">
       <div className="justify-center mx-auto ">
         <div className="">
           <div className="flex flex-wrap justify-between items-center">
@@ -65,15 +65,15 @@ import React from 'react';const Index = () => {
 
 
 
-      <div className="lg:flex 3xl:pt-32 2xl:pt-32 xl:pt-20 lg:pt-4 md:pt-4 sm:pt-0 lg:pb-28 md:pb-18 pb-8 items-center container justify-center mx-auto px-10" id="home-section">
+      <div className="lg:flex 3xl:pt-32 2xl:pt-32 xl:pt-20 lg:pt-4 md:pt-4 sm:pt-0 pt-36 lg:pb-28 md:pb-18 pb-8 items-center container justify-center mx-auto px-10" id="home-section">
             <div className="lg:pb-0 pb-8">
 
             <div class="container justify-center mx-auto text-center pb-32">
-                <p class="text-white font-bold lg:text-8xl md:text-5xl sm:text-3xl text-2xl font-[Source+Sans+Pro] lg:pb-6 md:pb-4 pb-2 lg:max-w-[844px] md:max-w-[300px] max-w-[200px] mx-auto lg:leading-[96px] leading-normal">
+                <p class="xl:text-white lg:text-white md:text-white sm:text-white text-indigo-800 font-bold lg:text-8xl md:text-5xl sm:text-3xl text-2xl font-[Source+Sans+Pro] lg:pb-6 md:pb-4 pb-2 lg:max-w-[844px] md:max-w-[300px] max-w-[200px] mx-auto lg:leading-[96px] leading-normal">
                   Data Science Meets SEO
                 </p>
                 <div class="flex flex-col justify-center mx-auto lg:pb-10 md:pb-5 pb-2">
-                  <p class=" font-[Source+Sans+Pro] lg:text-2xl md:text-xl sm:text-lg text-sm lg:px-0 px-10 text-white mx-auto lg:max-w-[631px] md:max-w-[500px] sm:max-w-[450px] lg:pb-10 pb-5">
+                  <p class=" font-[Source+Sans+Pro] lg:text-2xl md:text-xl sm:text-lg text-sm lg:px-0 px-10 xl:text-white lg:text-white md:text-white sm:text-white text-indigo-800 mx-auto lg:max-w-[631px] md:max-w-[500px] sm:max-w-[450px] lg:pb-10 pb-5">
                     Find all the SEO secrets of your competitors and track them daily without hours of boring keyword research &amp; grouping
                   </p>
                   <div class="mx-auto justify-center relative">
@@ -119,7 +119,7 @@ import React from 'react';const Index = () => {
         
 
       <div className='container:2xl py-4 px-10 mt-24 grid grid-cols lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 lg:flex-row xl:flex-row 2xl:flex-row'>
-        <div className='mx-8 my-8'>
+        <div className='xl:mx-8 lg:mx-8 md:mx-8 sm:mx-0 my-8'>
           <Image className="" src="/Group 5.png" width={40} height={40}/>
           <p className='text-2xl text-semibold w-[280px] h-[64px] text-left text-blue-800 mt-6'>
             AI-Based  Keyword Grouping
@@ -129,7 +129,7 @@ import React from 'react';const Index = () => {
           </p>
         </div>
 
-        <div className='mx-8 my-8'>
+        <div className='xl:mx-8 lg:mx-8 md:mx-8 sm:mx-0 my-8'>
           <Image className="" src="/Group 6.png" width={40} height={40}/>
           <p className='text-2xl text-semibold w-[270px] h-[64px] text-left text-blue-800 mt-6'>
             Fully Automated Keyword 
@@ -139,7 +139,7 @@ import React from 'react';const Index = () => {
           </p>
         </div>
 
-        <div className='mx-8 my-8'>
+        <div className='xl:mx-8 lg:mx-8 md:mx-8 sm:mx-0 my-8'>
           <Image className="" src="/Group 5 (1).png" width={40} height={40}/>
           <p className='text-2xl text-semibold w-[280px] h-[64px] text-left text-blue-800 mt-6'>
             Faster than Fastest Competitor
@@ -149,7 +149,7 @@ import React from 'react';const Index = () => {
           </p>
         </div>
 
-        <div className='ml-8 my-8'>
+        <div className='xl:ml-8 lg:ml-8 md:ml-8 sm:ml-0 my-8'>
           <Image className="" src="/Group 5 (2).png" width={40} height={40}/>
           <p className='text-2xl text-semibold w-[220px] h-[64px] text-left text-blue-800 mt-6'>
             Free migration from 40+ tools.
@@ -345,7 +345,7 @@ import React from 'react';const Index = () => {
 
           <div class="lg:flex container lg:justify-between justify-center mx-auto pt-96">
             <div class="relative lg:w-3/5 lg:h-[1020px] justify-center mx-auto hidden xl:block lg:block md:block lg:mx-30 mx-6 flex lg:pt-[405px] md:pt-[300px] pt-[200px] lg:pb-32 pb-30 lg:mb-40 mb-10 lg:pl-[305px] pl-10 pr-10">
-            <div className="relative bg-[url('/shapes.png')] 3xl:max-w-[965px] 2xl:max-w-[965px] xl:max-w-[865px] lg:max-w-[745px] md:max-w-[465px] sm:max-w-[565px] 3xl:h-[975px] 2xl:h-[975px] xl:h-[975px] lg:h-[675px] md:h-[575px] sm:h-[575px] bg-contain justify-center flex bg-no-repeat 3xl:pt-[400px] 2xl:pt-[400px] xl:pt-[200px] lg:pt-[250px] md:pt-[165px] sm:pt-[305px] pb-32 mb-40 xl:pl-[305px] lg:pl-[205px] md:pl-[255px] sm:pl-[305px] ">
+            <div className="relative bg-[url('/shapes.png')] 3xl:max-w-[965px] 2xl:max-w-[965px] xl:max-w-[865px] lg:max-w-[745px] md:max-w-[465px] sm:max-w-[565px] 3xl:h-[975px] 2xl:h-[975px] xl:h-[975px] lg:h-[675px] md:h-[575px] sm:h-[575px] bg-contain justify-center flex bg-no-repeat 3xl:pt-[400px] 2xl:pt-[400px] xl:pt-[400px] lg:pt-[200px] md:pt-[165px] sm:pt-[305px] pb-32 mb-40 xl:pl-[305px] lg:pl-[205px] md:pl-[255px] sm:pl-[305px] ">
             <div className="">  
             <ul className="-z-30 ">
               <li className="cursor-pointer">
@@ -412,7 +412,7 @@ import React from 'react';const Index = () => {
         </div>
       </div>
               <div>
-            <div class="w-[405px] 3xl:pt-48 2xl:pt-48 xl:pt-48 lg:pt-48 md:pt-4 sm:pt-4 flex flex-col justify-center items-center mx-auto mt-96">
+            <div class="xl:w-[405px] lg:w-[405px] md:w-[405px] sm:w-[310px] 3xl:pt-48 2xl:pt-48 xl:pt-48 lg:pt-48 md:pt-4 sm:pt-4 flex flex-col justify-center items-center mx-auto mt-96">
               <div>
                 <Image className='' src="/logo.png" width={70} height={80}/>
               </div>
@@ -431,7 +431,7 @@ import React from 'react';const Index = () => {
                 <p class="text-gray-600 text-2xl font-[Source+Sans+Pro]">
                   1551, Tallinn Estonia
                 </p>
-                <div class="gap-x-8 grid grid-cols-3 py-12 w-2/3">
+                <div class="gap-x-4 grid grid-cols-3 py-12 w-2/3">
                   <Image className='' src="/linkedin.png" width={77} height={77}/>
                   <Image className='' src="/twitter.png" width={77} height={77}/>
                   <Image className='' src="/facebook.png" width={77} height={77}/>
