@@ -6,8 +6,8 @@ import React from 'react';const Index = () => {
       <>
 
 
-  <div className='justify-center mx-auto w-full '>
-  <div className="relative xl:bg-[url('/hero.png')] lg:bg-[url('/hero.png')] md:bg-[url('/hero.png')] sm:bg-[url('/hero.png')] 2xl:bg-[url('/hero.png')] bg-[url('/hero.png')] layout-fill md:pb-0 pb-80 bg-contain bg-no-repeat ">
+  <div className='w-full mx-auto align-center flex justify-center'>
+  <div className="container relative xl:bg-[url('/hero.png')] justify-center items-center lg:bg-[url('/hero.png')] md:bg-[url('/hero.png')] sm:bg-[url('/hero.png')] 2xl:bg-[url('/hero.png')] bg-[url('/hero.png')] layout-fill md:pb-0 pb-80 bg-contain bg-no-repeat ">
       <div className="justify-center mx-auto ">
         <div className="">
           <div className="flex flex-wrap justify-between items-center">
@@ -65,7 +65,7 @@ import React from 'react';const Index = () => {
 
 
 
-      <div className="lg:flex 3xl:pt-32 2xl:pt-32 xl:pt-20 lg:pt-4 md:pt-4 sm:pt-0 pt-36 lg:pb-28 md:pb-18 pb-8 items-center container justify-center mx-auto px-10" id="home-section">
+      <div className="align-center flex justify-center items-center container lg:flex 3xl:pt-32 2xl:pt-32 xl:pt-20 lg:pt-4 md:pt-4 sm:pt-0 pt-36 lg:pb-28 md:pb-18 pb-8 items-center container justify-center mx-auto px-10" id="home-section">
             <div className="lg:pb-0 pb-8">
 
             <div class="container justify-center mx-auto text-center pb-32">
@@ -104,10 +104,7 @@ import React from 'react';const Index = () => {
                         Start instant demo
                       </button>
                     </div>
-                </div>
-                
-              
-     
+                </div> 
             </div>
           </div>
         </div>
@@ -162,7 +159,7 @@ import React from 'react';const Index = () => {
       </div>
 
 
-      <div className='my-24 mx-20 flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col'> 
+      <div className='flex justify-center items-center align-center my-24 mx-20 flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col'> 
 
         <div className=''>
           <p className='text-blue-800 text-left mx-auto xl:text-5xl lg:text-5xl md:text-4xl sm:text-4xl text-3xl sm:text-3xl xl:w-[624px] lg:w-[624px] md:w-[524px] sm:w-[424px] font-semibold'>
@@ -170,25 +167,20 @@ import React from 'react';const Index = () => {
           </p> 
         </div>
 
-        <div className='mx-auto flex flex-col mt-6'>
-
-          <div className=' grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 mb-6 gap-x-12 gap-y-12 justify-items-start items-center my-auto'>
-              <Image className='' src="/PepsiCo svg.png" width={187} height={34}/>
-              <Image className='' src="/GrandVision.png" width={187} height={34}/>
-              <Image className='' src="/red bull svg.png" width={156} height={34}/>
-            </div>
-            <div className=' grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-12'>
-              <Image className='' src="/YVESROCHER.png" width={187} height={24}/>
-              <Image className='' src="/beko svg (1).png" width={60} height={34}/>
-              <Image className='' src="/WEBER.png" width={187} height={24}/>
-            </div>
+        <div className='mx-auto flex flex-col mt-6 '>
+          <div class="grid lg:grid-cols-3 grid-cols-1 gap-x-12 gap-y-12 mx-auto justify-items-start items-center my-auto">
+            <Image className='' src="/PepsiCo svg.png" width={156} height={34}/>
+            <Image className='' src="/GrandVision.png" width={187} height={24}/>
+            <Image className='' src="/red bull svg.png" width={156} height={34}/>
           </div>
+          <div class="pt-10 grid lg:grid-cols-3 grid-cols-1 gap-x-12 gap-y-12 mx-auto justify-items-start items-center my-auto">
+            <Image className='' src="/YVESROCHER.png" width={187} height={24}/>
+            <Image className='' src="/beko svg (1).png" width={60} height={34}/>
+            <Image className='' src="/WEBER.png" width={187} height={24}/>
+          </div>
+        </div>
 
       </div>
-
-
-      
-
 
             <div class="lg:pb-32 md:pb-24 sm:pb-16 pb-10 xl:ml-24 mx-auto">
               <div className="container mb-20 relative bg-[url('/section-6.png')] -z-30 w-full bg-contain bg-cover justify-center text-center flex flex-col bg-no-repeat mt-16 pt-14 mb-14 mx-auto">
@@ -246,10 +238,6 @@ import React from 'react';const Index = () => {
               </div>
             </div>
          </div>
-            
-
-
-          
 
 
         <div className="container mx-auto mt-32">
@@ -269,9 +257,7 @@ import React from 'react';const Index = () => {
           Our Revolutionary Approach
           </h1>
 
-
-
-                <div class="grid lg:grid-cols-2 grid-cols-1 gap-8 justify-center mx-auto container">
+              <div class="grid lg:grid-cols-2 grid-cols-1 gap-8 justify-center mx-auto container ">
                   <div class="bg-white lg:p-10 p-6 max-w-[650px] text-center lg:text-left">
                     <Image className='' src="/Group 9.png" width={40} height={40}/>
                     <p class="lg:pt-12 md:pt-10 sm:pt-6 pt-4 lg:leading-[36px] text-blue-900 font-bold lg:text-[28px] md:text-2xl sm:text-xl text-lg lg:pb-8 md:pb-6 sm:pb-4 pb-2 lg:max-w-[553px]">
@@ -318,7 +304,7 @@ import React from 'react';const Index = () => {
 
 
 
-          <div class="lg:pb-32 md:pb-24 sm:pb-16 pb-10 xl:ml-24 mx-auto">
+          <div class="lg:pb-32 md:pb-24 sm:pb-16 pb-10 xl:ml-24 mx-auto  justify-center items-center align-center">
               <div className="container mb-20 absolute bg-[url('/section-6.png')] -z-30 w-full bg-contain bg-cover justify-center text-center flex flex-col bg-no-repeat mt-16 pt-14 mb-14 mx-auto">
                 <p class="mx-auto text-white font-[Source+Sans+Pro] font-semibold lg:text-[54px] md:text-4xl md:text-3xl text-2xl lg:leading-[54px] text-center lg:max-w-[660px] max-w-[300px] mx-auto pb-6">
                   Get Your Custom Analysis in 60 Seconds For Free
@@ -343,74 +329,53 @@ import React from 'react';const Index = () => {
           </div>
 
 
-          <div class="lg:flex container lg:justify-between justify-center mx-auto pt-96">
-            <div class="relative lg:w-3/5 lg:h-[1020px] justify-center mx-auto hidden xl:block lg:block md:block lg:mx-30 mx-6 flex lg:pt-[405px] md:pt-[300px] pt-[200px] lg:pb-32 pb-30 lg:mb-40 mb-10 lg:pl-[305px] pl-10 pr-10">
-            <div className="relative bg-[url('/shapes.png')] 3xl:max-w-[965px] 2xl:max-w-[965px] xl:max-w-[865px] lg:max-w-[745px] md:max-w-[465px] sm:max-w-[565px] 3xl:h-[975px] 2xl:h-[975px] xl:h-[975px] lg:h-[675px] md:h-[575px] sm:h-[575px] bg-contain justify-center flex bg-no-repeat 3xl:pt-[400px] 2xl:pt-[400px] xl:pt-[400px] lg:pt-[200px] md:pt-[165px] sm:pt-[305px] pb-32 mb-40 xl:pl-[305px] lg:pl-[205px] md:pl-[255px] sm:pl-[305px] ">
-            <div className="">  
-            <ul className="-z-30 ">
-              <li className="cursor-pointer">
-                <a className="text-white font-semi-bold font-[Source+Sans+Pro] cursor-pointer text-2xl">
+          <div class="lg:flex md:flex container lg:justify-between justify-center mx-auto pt-96">
+          <div class="flex flex-col lg:flex-row xl:flex-row 2xl:flex-row md:flex-row gap-32">
+            <div class="xl:w-11/12 pt-96 lg:w-11/12 md:w-11/12 sm:w-6/12">
+              <div class="relative">
+              <Image className='' src="/Shapes.png" width={551} height={699}/>
+              <div className='flex '>
+              <div>
+                <h1 class="absolute top-1/3 mb-3 pb-8 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer text-white font-semibold text-sm">
                   Company
-                </a>
-              </li>
-              <li>
-                <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] py-5 text-white transition duration-300 ">
+                </h1>
+                <h1 class="absolute top-1/3 mt-3 pb-4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer text-white font-semibold text-sm">
                   About
-                </a>
-              </li>
-              <li>
-                <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] text-white transition duration-300 ">
+                </h1>
+                <h1 class="absolute top-1/3 mt-6 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer text-white font-semibold text-sm">
                   Blog
-                </a>
-              </li>
-              <li>
-                <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] text-white transition duration-300 ">
-                  Career
-                </a>
-              </li>
-              <li>
-                <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] text-white transition duration-300  active">
+                </h1>
+                <h1 class="absolute top-1/3 mt-11 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer text-white font-semibold text-sm">
+                  Carrer
+                </h1>
+                <h1 class="absolute top-1/3 mt-16 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer text-white font-semibold text-sm">
                   Contact
-                </a>
-              </li>
-            </ul>
-            <ul className="pb-14">
-              <li className="cursor-pointer">
-                <a className="text-white font-semi-bold font-[Source+Sans+Pro] cursor-pointer text-2xl">
+                </h1>
+                <h1 class="absolute top-1/3 mt-24 pb-4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer text-white font-semibold text-sm ">
                   Help
-                </a>
-              </li>
-              <li>
-                <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] text-white transition duration-300">
+                </h1>
+                <h1 class="absolute top-1/3 mt-28 pb-2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer text-white font-semibold text-sm">
                   Knowledge Base
-                </a>
-              </li>
-            </ul>
+                </h1>
+              </div>
+              <div>
+                <h1 class="absolute top-1/3 mt-36 pb-6 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer text-white font-semibold text-sm">
+                  Product
+                </h1>
+                <h1 class="absolute top-1/3 mt-40 pb-3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer text-white font-semibold text-sm">
+                  Features
+                </h1>
+                <h1 class="absolute top-1/3 mt-44 pb-2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer text-white font-semibold text-sm">
+                  CLI
+                </h1>
+                <h1 class="absolute top-1/3 mt-48 pb-1 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer text-white font-semibold text-sm">
+                  Pricing
+                </h1>
+                </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <ul className="pb-56 pl-14 pr-72">
-            <li className="cursor-pointer">
-              <a className="text-white font-semi-bold font-[Source+Sans+Pro] cursor-pointer text-2xl">
-                Product
-              </a>
-            </li>
-            <li>
-              <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] py-5 text-white transition duration-300 ">
-                CLI
-              </a>
-            </li>
-            <li>  
-              <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] py-5 text-white transition duration-300 ">
-                Pricing
-              </a>
-            </li>
-            <li>
-              <a className="cursor-pointer text-white font-normal font-[Source+Sans+Pro] py-5 pr-30 text-white transition duration-300 ">
-                Features
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
               <div>
             <div class="xl:w-[405px] lg:w-[405px] md:w-[405px] sm:w-[310px] 3xl:pt-48 2xl:pt-48 xl:pt-48 lg:pt-48 md:pt-4 sm:pt-4 flex flex-col justify-center items-center mx-auto mt-96">
               <div>
