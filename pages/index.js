@@ -6,10 +6,10 @@ import React from 'react';const Index = () => {
       <>
 
 
-  <div className='w-full mx-auto align-center flex justify-center'>
-  <div className="container relative xl:bg-[url('/hero.png')] justify-center items-center lg:bg-[url('/hero.png')] md:bg-[url('/hero.png')] sm:bg-[url('/hero.png')] 2xl:bg-[url('/hero.png')] bg-[url('/hero.png')] layout-fill md:pb-0 pb-80 bg-contain bg-no-repeat ">
-      <div className="justify-center mx-auto ">
-        <div className="">
+  <div className='w-full mx-auto align-center items-center place-content-center layout-fill justify-center'>
+  <div className="relative xl:bg-[url('/hero.png')] justify-center items-center lg:bg-[url('/hero.png')] md:bg-[url('/hero.png')] sm:bg-[url('/hero.png')] 2xl:bg-[url('/hero.png')] bg-[url('/hero.png')] layout-fill md:pb-0 pb-80 bg-contain bg-no-repeat ">
+      <div className="justify-center mx-auto">
+        <div className="container">
           <div className="flex flex-wrap justify-between items-center">
             <div className='xl:pl-20 lg:pl-20 md:pl-20 sm:pl-5 pl-4 pt-4'>
               <Image className="cursor-pointer" src="/group 13 (1).png" width={158} height={47.17}/>
